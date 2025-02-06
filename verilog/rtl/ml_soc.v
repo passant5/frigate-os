@@ -1100,7 +1100,7 @@ ahbl_crossbar #(
 	.dst_hresp       ({  flash_hresp       , ahb_0_hresp       , ahb_1_hresp       ,  ahb_2_hresp       }),
 	.dst_haddr       ({  flash_haddr       , ahb_0_haddr       , ahb_1_haddr       ,  ahb_2_haddr       }),
 	.dst_hwrite      ({  flash_hwrite      , ahb_0_hwrite      , ahb_1_hwrite      ,  ahb_2_hwrite      }),
-	.dst_htrans      ({  flash_htrans      , ahb_0_htrans      , ahb_1_htrans      ,  ahb_2_htrans_temp      }),
+	.dst_htrans      ({  flash_htrans      , ahb_0_htrans      , ahb_1_htrans      ,  ahb_2_htrans      }),
 	.dst_hsize       ({  flash_hsize       , ahb_0_hsize       , ahb_1_hsize       ,  ahb_2_hsize       }),
 	.dst_hburst      ({  flash_hburst      , ahb_0_hburst      , ahb_1_hburst      ,  ahb_2_hburst      }),
 	.dst_hprot       ({  flash_hprot       , ahb_0_hprot       , ahb_1_hprot       ,  ahb_2_hprot       }),
