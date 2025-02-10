@@ -16,7 +16,7 @@
 `timescale 			1ns/1ps
 `default_nettype 	none
 
-module AHBL_sys0 #(
+module ahbl_0 #(
     parameter W_ADDR = 32,
 	parameter W_DATA = 32,
     parameter SRAM_DEPTH = 1 << 12
@@ -363,8 +363,7 @@ module AHBL_sys0 #(
 
     assign psram_hresp = 1'b0;
 
-`ifndef FPGA
-    clk_rst_sys_AHBL clk_sys(
+    clk_rst_AHBL clk_sys(
     `ifdef USE_POWER_PINS
         .VPWR(vccd1),
         .VGND(vssd1),
@@ -406,34 +405,6 @@ module AHBL_sys0 #(
     );
 
     assign clk_sys_hresp = 1'b0;
-
-`else 
-    clocking_sys_fpga clk_sys_fpga(
-	`ifdef USE_POWER_PINS 
-		.DVDD               (vccd1),
-		.DVSS               (vssd1),
-		.AVDD               (vdda1),
-		.AVSS               (vssa1), 
-	`endif 
-		
-		.clk_div_2          (clk_div_2),
-	    .HCLK               (clk),
-        .HRESETn            (rst_n),
-
-        .HSEL               (1'b1),
-        .HADDR              (clk_sys_haddr),
-        .HWDATA             (clk_sys_hwdata),
-        .HTRANS             (clk_sys_htrans),
-        .HSIZE              (clk_sys_hsize),
-        .HWRITE             (clk_sys_hwrite),
-        .HREADY             (clk_sys_hready),
-        .HREADYOUT          (clk_sys_hready_resp),
-        .HRDATA             (clk_sys_hrdata)
-    );
-
-    assign clk_sys_hresp = 1'b0;
-
-`endif
 
     EF_PIN_MUX_AHBL pin_mux(
         .io_in              (pin_mux_io_in),
@@ -495,7 +466,7 @@ module AHBL_sys0 #(
 
     assign fw_hresp = 1'b0;
 
-    regs_system_AHBL sys_regs(
+    sys_ctrl_regs_AHBL sys_regs(
 
         .HCLK               (clk),
         .HRESETn            (rst_n),

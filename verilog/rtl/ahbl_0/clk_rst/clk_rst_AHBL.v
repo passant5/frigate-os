@@ -40,7 +40,7 @@
 	limitations under the License.
 */
 
-module clk_rst_sys_AHBL (
+module clk_rst_AHBL (
 	`ifdef USE_POWER_PINS 
 		input   wire        VPWR, 
 		input   wire        VGND, 
@@ -188,7 +188,7 @@ module clk_rst_sys_AHBL (
 	wire    dll_clk90;
 	wire   	clk_mux1;
 	
-	clk_rst_sys instance_to_wrap (
+	clk_rst instance_to_wrap (
 	`ifdef USE_POWER_PINS
 		.VPWR(VPWR),
 		.VGND(VGND),

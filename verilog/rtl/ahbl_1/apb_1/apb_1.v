@@ -16,7 +16,7 @@
 `timescale 			1ns/1ps
 `default_nettype 	none
 
-module APB_sys1 #(
+module apb_1 #(
     parameter CLK_MHZ    = 12      // For timer timebase
 )(
 	`ifdef USE_POWER_PINS
@@ -1011,7 +1011,7 @@ module APB_sys1 #(
 	assign i2c1_pslverr = 1'b0;
 	
 
-	regs_analog_ctrl_APB analog_regs (   
+	analog_ctrl_regs_APB analog_regs (   
 
 		.PCLK       (clk),
 		.PRESETn    (rst_n),

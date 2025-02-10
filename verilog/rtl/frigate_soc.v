@@ -16,7 +16,7 @@
 `timescale 			1ns/1ps
 `default_nettype 	none
 
-module ml_soc #(
+module frigate_soc #(
 	parameter SRAM_DEPTH = 1 << 12, // Default 32 kwords -> 128 kB
 	parameter CLK_MHZ    = 12,      // For timer timebase
 
@@ -993,7 +993,7 @@ wire [W_DATA-1:0]  dmac_S_hwdata;
 wire [W_DATA-1:0]  dmac_S_hrdata;
 
 
-dma_ctrl_AHBL DMAC_u(
+dmac_AHBL DMAC_u(
     .HCLK                       (clk),
     .HRESETn                    (rst_n),
 
@@ -1472,7 +1472,7 @@ wire [3:0]       	hk_fdin;
 wire [3:0]       	hk_fdout;
 wire [3:0]       	hk_fdouten;
  			
-AHBL_sys0  #(
+ahbl_0  #(
     .W_ADDR(W_ADDR),
     .W_DATA(W_DATA),
     .SRAM_DEPTH(SRAM_DEPTH)
@@ -1665,7 +1665,7 @@ assign hk_fdoutenb = ~hk_fdouten;
 
 assign fdouten = ~fdoutenb;
  
-APB_sys2 #(
+apb_2 #(
     .CLK_MHZ (CLK_MHZ)      // For timer timebase
 )
 apb2_sys(
@@ -1838,7 +1838,7 @@ wire        		bridge1_pslverr;
 
 wire usb_sc_in, usb_sc_out;
 
-AHBL_sys1  #(
+ahbl_1  #(
     .W_ADDR(W_ADDR),
     .W_DATA(W_DATA),
     .SRAM_DEPTH(SRAM_DEPTH)
@@ -1986,7 +1986,7 @@ wire [5:0] gpioI_oe_nc;
 
 wire can_sc_in, can_sc_out;
 
-APB_sys0 #(
+apb_0 #(
     .CLK_MHZ (CLK_MHZ)      // For timer timebase
 )
 apb0_sys(
@@ -2089,7 +2089,7 @@ apb0_sys(
 
 );
 
-APB_sys1 #(
+apb_1 #(
     .CLK_MHZ (CLK_MHZ)      // For timer timebase
 )
 apb1_sys(

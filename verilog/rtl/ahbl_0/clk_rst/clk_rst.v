@@ -28,7 +28,7 @@
         - XRST
         - HKRST
 */
-module clk_rst_sys(
+module clk_rst(
 `ifdef USE_POWER_PINS 
     inout   wire        VPWR, 
     inout   wire        VGND, 

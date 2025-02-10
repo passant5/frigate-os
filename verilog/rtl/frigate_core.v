@@ -2757,7 +2757,7 @@ end else if (DTM_TYPE == "ECP5") begin
 end
 endgenerate
 
-  ml_soc soc (
+  frigate_soc soc (
 `ifdef USE_POWER_PINS
       .vccd1(vccd0),
       .vssd1(vssd0),

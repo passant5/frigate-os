@@ -16,7 +16,7 @@
 `timescale 			1ns/1ps
 `default_nettype 	none
 
-module AHBL_sys1 #(
+module ahbl_1 #(
     parameter W_ADDR = 32,
 	parameter W_DATA = 32,
     parameter SRAM_DEPTH = 1 << 12

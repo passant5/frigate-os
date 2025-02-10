@@ -22,7 +22,7 @@
 `timescale			1ns/1ps
 `default_nettype	none
 
-module regs_system_AHBL (
+module sys_ctrl_regs_AHBL (
 	input wire          HCLK,
                                         input wire          HRESETn,
                                         input wire          HWRITE,
@@ -189,7 +189,7 @@ module regs_system_AHBL (
 	wire [1-1:0]	mgmt_select_WIRE;
 	assign	mgmt_select_WIRE = bus_mgmt_select;
 
-	regs_system instance_to_wrap (
+	sys_ctrl_regs instance_to_wrap (
 		.clk(clk),
 		.rst_n(rst_n),
 		.bus_muxsplit_se_switch_aa_sl(bus_muxsplit_se_switch_aa_sl),

@@ -16,7 +16,7 @@
 `timescale 			1ns/1ps
 `default_nettype 	none
 
-module APB_sys2 #(
+module apb_2 #(
     parameter CLK_MHZ    = 12      // For timer timebase
 )(
     `ifdef USE_POWER_PINS

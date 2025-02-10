@@ -17,7 +17,7 @@
 `timescale          1ns/1ps
 `default_nettype    none
 
-module dma_ctrl_master (
+module dmac_master (
     input   wire        HCLK,
     input   wire        HRESETn,
     output  wire [31:0] HADDR,

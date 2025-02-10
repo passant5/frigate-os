@@ -16,10 +16,10 @@
 `timescale 			1ns/1ps
 `default_nettype 	none
 
-module regs_analog_ctrl (
+module analog_ctrl_regs (
 
-    input clk,
-    input rst_n,
+    input wire clk,
+    input wire rst_n,
 
     // Test points enable/disable connections
    input wire [1:0] bus_ibias_test_to_gpio1_2,
@@ -755,18 +755,18 @@ module regs_analog_ctrl (
    output wire [11:0] rdac1_value,
 
    // Brownout detector
-   output brownout_ena,		// brownout detector enable
-   output [2:0] brownout_vtrip,	// brownout detector trip point
-   output [2:0] brownout_otrip,	// brownout detector trip point
-   output brownout_isrc_sel,	// brownout detector select current bias
-   output brownout_oneshot,	// brownout detector force short one-shot
-   output brownout_rc_ena,	// brownout detector force oscillator enabled
-   output brownout_rc_dis,	// brownout detector force oscillator disabled
+   output wire brownout_ena,		// brownout detector enable
+   output wire [2:0] brownout_vtrip,	// brownout detector trip point
+   output wire [2:0] brownout_otrip,	// brownout detector trip point
+   output wire brownout_isrc_sel,	// brownout detector select current bias
+   output wire brownout_oneshot,	// brownout detector force short one-shot
+   output wire brownout_rc_ena,	// brownout detector force oscillator enabled
+   output wire brownout_rc_dis,	// brownout detector force oscillator disabled
 
-   input brownout_vunder,	// brownout detector undervoltage alarm
-   input brownout_timeout,	// brownout detector timeout
-   input brownout_filt,	// brownout detector undervoltage (filtered)
-   input brownout_unfilt	// brownout detector undervoltage (unfiltered)
+   input wire brownout_vunder,	// brownout detector undervoltage alarm
+   input wire brownout_timeout,	// brownout detector timeout
+   input wire brownout_filt,	// brownout detector undervoltage (filtered)
+   input wire brownout_unfilt	// brownout detector undervoltage (unfiltered)
 
 );
  

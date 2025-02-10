@@ -16,7 +16,7 @@
 `timescale 			1ns/1ps
 `default_nettype 	none
 
-module regs_system (
+module sys_ctrl_regs (
 
     input   wire         clk,
     input   wire         rst_n,

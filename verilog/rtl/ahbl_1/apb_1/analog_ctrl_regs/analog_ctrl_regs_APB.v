@@ -23,7 +23,7 @@
 `default_nettype	none
 
 
-module regs_analog_ctrl_APB (
+module analog_ctrl_regs_APB (
 	input wire          PCLK,
                                         input wire          PRESETn,
                                         input wire          PWRITE,
@@ -1181,7 +1181,7 @@ module regs_analog_ctrl_APB (
 	wire [1-1:0]	reg_vccd2_pwr_good_WIRE;
 	assign	reg_vccd2_pwr_good_WIRE = bus_vccd2_pwr_good;
 
-	regs_analog_ctrl instance_to_wrap (
+	analog_ctrl_regs instance_to_wrap (
 		.clk(clk),
 		.rst_n(rst_n),
 		.bus_ibias_test_to_gpio1_2(bus_ibias_test_to_gpio1_2),
