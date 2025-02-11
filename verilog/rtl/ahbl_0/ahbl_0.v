@@ -406,7 +406,7 @@ module ahbl_0 #(
 
     assign clk_sys_hresp = 1'b0;
 
-    EF_PIN_MUX_AHBL pin_mux(
+    pin_mux_AHBL pin_mux(
         .io_in              (pin_mux_io_in),
 	    .io_out             (pin_mux_io_out),
 	    .io_oeb             (pin_mux_io_oeb),

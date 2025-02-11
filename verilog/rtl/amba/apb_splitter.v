@@ -81,11 +81,11 @@ end
 assign apbs_pready = !slave_mask || slave_mask & apbm_pready;
 assign apbs_pslverr = !slave_mask || slave_mask & apbm_pslverr;
 
-assign apbm_paddr = {N_SLAVES{apbs_paddr}};
-assign apbm_psel = slave_mask & {N_SLAVES{apbs_psel}};
-assign apbm_penable = slave_mask & {N_SLAVES{apbs_penable}};
-assign apbm_pwrite = slave_mask & {N_SLAVES{apbs_pwrite}};
-assign apbm_pwdata = {N_SLAVES{apbs_pwdata}};
+assign #1 apbm_paddr = {N_SLAVES{apbs_paddr}};
+assign #1 apbm_psel = slave_mask & {N_SLAVES{apbs_psel}};
+assign #1 apbm_penable = slave_mask & {N_SLAVES{apbs_penable}};
+assign #1 apbm_pwrite = slave_mask & {N_SLAVES{apbs_pwrite}};
+assign #1 apbm_pwdata = {N_SLAVES{apbs_pwdata}};
 
 onehot_mux #(
 	.N_INPUTS(N_SLAVES),

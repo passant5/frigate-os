@@ -2324,7 +2324,7 @@ module frigate_core (
     //------------------------------------------------------------
     // This value is uniquely defined for each product.
     //------------------------------------------------------------
-    parameter PRODUCT_ID = 8'h41;
+    parameter PRODUCT_ID = 8'h42;
 
 
   // Mask revision/User project ID/Product ID
@@ -3380,7 +3380,7 @@ endgenerate
     .user_irq(user_irqs)
   );
 
-  blocks_EF_SRAM_1024x32 #(.RAM_BLOCKS(2)) RAM_0 (
+sram_2048x32 RAM_0 (
 `ifdef USE_POWER_PINS
     .vgnd(vssd0),
     .vnb(vssd0),
@@ -3410,7 +3410,7 @@ endgenerate
     .WLOFF(1'b0)
   );
 
-  blocks_EF_SRAM_1024x32 #(.RAM_BLOCKS(2)) RAM_1 (
+sram_2048x32 RAM_1 (
 `ifdef USE_POWER_PINS
     .vgnd(vssd0),
     .vnb(vssd0),

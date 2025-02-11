@@ -22,11 +22,11 @@
 
 //for WB
 
-module blocks_EF_SRAM_1024x32 #(
-  parameter integer RAM_BLOCKS = 2,
-  parameter integer AW = $ceil($clog2(RAM_BLOCKS))+10
+module ef_sram #(
+  parameter integer RAM_BLOCKS = 2
   )
   (DO, ScanOutCC, AD, BEN, CLKin, DI, EN, R_WB, ScanInCC, ScanInDL, ScanInDR, SM, TM, WLBI, WLOFF, vgnd, vnb, vpb, vpwra, vpwrac, vpwrm, vpwrp, vpwrpc);
+    localparam integer AW = $ceil($clog2(RAM_BLOCKS))+10;
     output wire [31:0] DO;
     output wire ScanOutCC;
     input wire [31:0] DI;
@@ -46,6 +46,7 @@ module blocks_EF_SRAM_1024x32 #(
     input wire vpwrpc;
     inout wire vgnd;
     inout wire vpwrm;
+
 
 `ifdef EF_SRAM_PA_SIM
   inout wire vpwra;
