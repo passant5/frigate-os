@@ -1,0 +1,120 @@
+# SPDX-FileCopyrightText: 2020 Efabless Corporation
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# SPDX-License-Identifier: Apache-2.0
+
+# defines 
+-v $(USER_PROJECT_VERILOG)/rtl/defines.v
+-v $(USER_PROJECT_VERILOG)/rtl/user_defines.v
+-v $(USER_PROJECT_VERILOG)/rtl/issues.v
+
+
+# Caravel user project includes
+-v $(USER_PROJECT_VERILOG)/rtl/frigate.v     
+-v $(USER_PROJECT_VERILOG)/gl/frigate_core.v  
+
+# VIP
+-v $(USER_PROJECT_VERILOG)/vip/user_vip_flash_spi.v
+-v $(USER_PROJECT_VERILOG)/vip/sst26wf080b.v
+-v $(USER_PROJECT_VERILOG)/vip/sky130_ef_ip__rc_osc_16M.v
+-v $(USER_PROJECT_VERILOG)/vip/sky130_ef_ip__rc_osc_500k.v
+-v $(USER_PROJECT_VERILOG)/vip/sky130_ef_ip__xtal_osc_16M.v
+-v $(USER_PROJECT_VERILOG)/vip/sky130_ef_ip__xtal_osc_32k.v
+-v $(USER_PROJECT_VERILOG)/vip/frigate_adc_12_bit.v
+
+
+#Hazard3 verilog files 
+
+#-v $(USER_PROJECT_VERILOG)/vip/EF_DACSCA1001.v
+#-v $(USER_PROJECT_VERILOG)/vip/EF_R2RVC02.v
+#-v $(USER_PROJECT_VERILOG)/vip/EF_ADCS1008NC.v
+
+-v $(USER_PROJECT_VERILOG)/rtl/EF_SRAM_1024x32.v
+-v $(USER_PROJECT_VERILOG)/rtl/EF_SRAM_1024x32_wrapper.v
+-v $(USER_PROJECT_VERILOG)/gl/vccd1_tie_high.v
+-v $(USER_PROJECT_VERILOG)/gl/mgmt_protect.v
+
+#user 
+-v $(USER_PROJECT_VERILOG)/gl/user_project_wrapper.v
+-v $(USER_PROJECT_VERILOG)/gl/SW_AES_AHBL.v
+-v $(USER_PROJECT_VERILOG)/gl/SW_SHA256_AHBL.v
+-v $(USER_PROJECT_VERILOG)/gl/Conv2d_AHBL.v
+
+# new macros
+#-v $(USER_PROJECT_VERILOG)/gl/hazard3_cpu_2port.v
+-v $(USER_PROJECT_VERILOG)/gl/can_top_level.v
+-v $(USER_PROJECT_VERILOG)/gl/EF_QSPI_XIP_CTRL_ahbl.v
+-v $(USER_PROJECT_VERILOG)/gl/usb_cdc_wrapper_ahbl.v
+
+#clk rst
+-v $(USER_PROJECT_VERILOG)/gl/clk_rst.v
+
+
+# Housekeeping 
+-v $(USER_PROJECT_VERILOG)/gl/housekeeping.v
+# ANALOG_CTRL_REGS_APB
+-v $(USER_PROJECT_VERILOG)/gl/ANALOG_CTRL_REGS_APB.v
+
+#IP_Utilities
+-v $(USER_PROJECT_VERILOG)/../ip/IP_Utilities/rtl/aucohl_lib.v
+-v $(USER_PROJECT_VERILOG)/../ip/IP_Utilities/rtl/aucohl_rtl.vh
+
+# IDs
+-v $(USER_PROJECT_VERILOG)/gl/project_id_rom_32bit.v
+-v $(USER_PROJECT_VERILOG)/gl/product_id_rom_8bit.v
+
+# open frame 
+-v $(CARAVEL_PATH)/rtl/constant_block.v
+-v $(CARAVEL_PATH)/rtl/xres_buf.v
+-v $(CARAVEL_PATH)/rtl/simple_por.v
+-v $(CARAVEL_PATH)/rtl/pads.v
+
+#logic high
+-v $(USER_PROJECT_VERILOG)/gl/gpio_logic_high.v
+
+# panamax
+-v $(USER_PROJECT_VERILOG)/../dependencies/caravel_panamax/verilog/rtl/chip_io_128pin.v
+
+# gpio control block
+-v $(USER_PROJECT_VERILOG)/gl/gpio_control_block.v
+
+
+# dll
+-v $(USER_PROJECT_VERILOG)/rtl/dll/dll_controller.v
+-v $(USER_PROJECT_VERILOG)/rtl/dll/dll.v
+-v $(USER_PROJECT_VERILOG)/rtl/dll/ring_osc2x13.v
+
+# frigate analog
+-v $(USER_PROJECT_VERILOG)/rtl/frigate_analog.v
+-v $(USER_PROJECT_VERILOG)/rtl/frigate_timing_frontend.v
+
+# analog routes 
+-v $(USER_PROJECT_VERILOG)/gl/analog_routes.v
+-v $(USER_PROJECT_VERILOG)/gl/manual_power_connections.v
+
+# defaults 
+-v $(USER_PROJECT_VERILOG)/gl/gpio_defaults_block_16bit_8c01.v
+-v $(USER_PROJECT_VERILOG)/gl/gpio_defaults_block_16bit_8801.v
+-v $(USER_PROJECT_VERILOG)/gl/gpio_defaults_block_16bit_9801.v
+-v $(USER_PROJECT_VERILOG)/gl/gpio_defaults_block_16bit_9809.v
+
+
+#PDK cells
+-v $(PDK_ROOT)/$(PDK)/libs.ref/sky130_fd_io/verilog/sky130_fd_io.v
+-v $(PDK_ROOT)/$(PDK)/libs.ref/sky130_fd_io/verilog/sky130_ef_io.v
+-v $(VERILOG_PATH)/cvc-pdk/primitives_hd.v
+-v $(VERILOG_PATH)/cvc-pdk/sky130_fd_sc_hd.v
+-v $(VERILOG_PATH)/cvc-pdk/primitives_hvl.v
+-v $(VERILOG_PATH)/cvc-pdk/sky130_fd_sc_hvl.v
+-v $(VERILOG_PATH)/cvc-pdk/sky130_sram_2kbyte_1rw1r_32x512_8.v
+-v $(VERILOG_PATH)/cvc-pdk/sky130_ef_sc_hd__decap_12.v

@@ -1,0 +1,22 @@
+{
+    "IP": [
+        {"EF_QSPI_XIP_CTRL": "v1.1.0"},
+        {"EF_ADCS1008A": "v1.0.3"},
+        {"EF_PIN_MUX": "v2.0.8"},
+        {"EF_DAC1001_DI": "v1.0.2"},
+        {"usb_cdc_wrapper": "v1.0.3"},
+        {"EF_IP_UTIL": "v1.0.0"},
+        {"EF_GPIO8": "v1.1.0"},
+        {"EF_WDT32": "v1.1.0"},
+        {"EF_I2S": "v1.2.0"},
+        {"EF_AES": "v1.1.0"},
+        {"EF_SHA256": "v1.1.0"},
+        {"EF_I2C": "v1.1.0"},
+        {"EF_TMR32": "v1.1.0"},
+        {"EF_SPI": "v1.1.0"},
+        {"EF_PSRAM_CTRL_V2": "v1.0.8"},
+        {"EF_QSPI_FLASH_WRITER": "v1.1.0"},
+        {"EF_UART": "v1.3.0"},
+        {"EF_SRAM_1024x32": "v2.0.0"}
+    ]
+}

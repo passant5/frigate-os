@@ -1,0 +1,214 @@
+# SPDX-FileCopyrightText: 2020 Efabless Corporation
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# SPDX-License-Identifier: Apache-2.0
+
+
+# defines 
+-v $(FRIGATE_VERILOG)/rtl/defines.v
+
+# Caravel user project includes
+-v $(FRIGATE_VERILOG)/rtl/frigate.v     
+-v $(FRIGATE_VERILOG)/rtl/frigate_core.v  
+
+# VIP
+-v $(FRIGATE_VERILOG)/vip/user_vip_flash_spi.v
+-v $(FRIGATE_VERILOG)/vip/sst26wf080b.v
+-v $(FRIGATE_VERILOG)/vip/sky130_ef_ip__rc_osc_16M.v
+-v $(FRIGATE_VERILOG)/vip/sky130_ef_ip__rc_osc_500k.v
+-v $(FRIGATE_VERILOG)/vip/sky130_ef_ip__xtal_osc_16M.v
+-v $(FRIGATE_VERILOG)/vip/sky130_ef_ip__xtal_osc_32k.v
+-v $(FRIGATE_VERILOG)/vip/frigate_adc_12_bit.v
+-v $(FRIGATE_VERILOG)/vip/simple_por.v
+
+#Hazard3 verilog files 
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_alu.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_apb_async_bridge.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_branchcmp.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_core.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_cpu_2port.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_csr.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_decode.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_dm.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_ecp5_jtag_dtm.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_frontend.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_instr_decompress.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_irq_ctrl.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_jtag_dtm_core.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_jtag_dtm.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_mul_fast.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_muldiv_seq.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_onehot_encode.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_onehot_priority_dynamic.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_onehot_priority.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_pmp.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_power_ctrl.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_priority_encode.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_regfile_1w2r.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_reset_sync.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_riscv_timer.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_shift_barrel.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_sync_1bit.v
+-v $(FRIGATE_VERILOG)/rtl/hazard3/hazard3_triggers.v
+
+
+
+# amba
+-v $(FRIGATE_VERILOG)/rtl/amba/ahbl_arbiter.v
+-v $(FRIGATE_VERILOG)/rtl/amba/ahbl_crossbar.v
+-v $(FRIGATE_VERILOG)/rtl/amba/ahbl_splitter.v
+-v $(FRIGATE_VERILOG)/rtl/amba/ahb_to_apb.v
+-v $(FRIGATE_VERILOG)/rtl/amba/apb_splitter.v
+
+# ahbl_0
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/ahbl_0.v
+# sys_ctrl_regs
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/sys_ctrl_regs/sys_ctrl_regs.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/sys_ctrl_regs/sys_ctrl_regs_AHBL.v
+# clk rst
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/clk_rst/clk_rst_AHBL.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/clk_rst/clk_rst.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/clk_rst/clk_div.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/clk_rst/clkmux_2x1.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/clk_rst/clkmux_4x1.v
+# dll
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/clk_rst/dll/dll_controller.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/clk_rst/dll/dll.v
+# -v $(FRIGATE_VERILOG)/rtl/ahbl_0/clk_rst/dll/ring_osc2x13.v
+-v $(FRIGATE_VERILOG)/vip/ring_osc2x13.v
+# pin_mux
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/pin_mux/pin_mux_AHBL.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/pin_mux/pin_mux.v
+
+# ahbl_1
+-v $(FRIGATE_VERILOG)/rtl/ahbl_1/ahbl_1.v
+# apb_0
+-v $(FRIGATE_VERILOG)/rtl/ahbl_1/apb_0/apb_0.v
+# ctu can 
+-v $(FRIGATE_VERILOG)/rtl/ahbl_1/apb_0/ctu_can/ctu_can_APB.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_1/apb_0/ctu_can/ctu_can.v
+# audiodac 
+-v $(FRIGATE_VERILOG)/rtl/ahbl_1/apb_0/iic_audiodac/audiodac_dsmod.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_1/apb_0/iic_audiodac/audiodac_fifo.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_1/apb_0/iic_audiodac/audiodac.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_1/apb_0/iic_audiodac/iic_audiodac_APB.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_1/apb_0/iic_audiodac/iic_audiodac_AHBL.v
+
+# apb_1
+-v $(FRIGATE_VERILOG)/rtl/ahbl_1/apb_1/apb_1.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_1/apb_1/analog_ctrl_regs/analog_ctrl_regs.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_1/apb_1/analog_ctrl_regs/analog_ctrl_regs_APB.v
+
+# apb_2
+-v $(FRIGATE_VERILOG)/rtl/ahbl_1/apb_2/apb_2.v
+
+
+#dmac 
+-v $(FRIGATE_VERILOG)/rtl/dmac/dmac_AHBL.v
+-v $(FRIGATE_VERILOG)/rtl/dmac/dmac_master.v
+
+#utils 
+-v $(FRIGATE_VERILOG)/rtl/utils/onehot_mux.v
+-v $(FRIGATE_VERILOG)/rtl/utils/onehot_priority.v
+-v $(FRIGATE_VERILOG)/rtl/utils/reset_sync.v
+
+
+-v $(FRIGATE_VERILOG)/rtl/frigate_soc.v
+
+-v $(FRIGATE_VERILOG)/../ip/EF_QSPI_FLASH_WRITER/hdl/rtl/EF_QSPI_FLASH_WRITER.v
+
+-v $(FRIGATE_VERILOG)/rtl/user_project_wrapper_empty.v
+-v $(FRIGATE_VERILOG)/rtl/vccd1_tie_high.v
+-v $(FRIGATE_VERILOG)/rtl/mgmt_protect.v
+# Ram 
+-v $(FRIGATE_VERILOG)/../ip/EF_SRAM_1024x32/hdl/controllers/ram_ahb_controller.v
+-v $(FRIGATE_VERILOG)/../ip/EF_SRAM_1024x32/hdl/beh_models/EF_SRAM_1024x32.ss_160V_n40C.v
+-v $(FRIGATE_VERILOG)/rtl/ef_sram.v
+-v $(FRIGATE_VERILOG)/rtl/sram_2048x32.v
+-v $(FRIGATE_VERILOG)/../ip/EF_SRAM_1024x32/hdl/EF_SRAM_1024x32.v
+
+
+#Housekeeping 
+-v $(FRIGATE_VERILOG)/rtl/hk/housekeeping.v
+-v $(FRIGATE_VERILOG)/rtl/hk/housekeeping_spi.v
+
+#EF_UTIL
+-v $(FRIGATE_VERILOG)/../ip/EF_IP_UTIL/hdl/ef_util_lib.v
+# -v $(FRIGATE_VERILOG)/../ip/IP_Utilities/rtl/aucohl_rtl.vh
+
+
+
+# IPs
+-v $(FRIGATE_VERILOG)/../ip/EF_ADCS1008A/hdl/rtl/EF_ADCS1008A.v
+-v $(FRIGATE_VERILOG)/../ip/EF_ADCS1008A/hdl/rtl/bus_wrapper/EF_ADCS1008A_apb.pp.v
+-v $(FRIGATE_VERILOG)/../ip/EF_UART/hdl/rtl/EF_UART.v
+-v $(FRIGATE_VERILOG)/../ip/EF_UART/hdl/rtl/bus_wrappers/EF_UART_APB.v  
+-v $(FRIGATE_VERILOG)/../ip/EF_SPI/hdl/rtl/EF_SPI.v
+-v $(FRIGATE_VERILOG)/../ip/EF_SPI/hdl/rtl/spi_master.v
+-v $(FRIGATE_VERILOG)/../ip/EF_SPI/hdl/rtl/bus_wrappers/EF_SPI_APB.v 
+-v $(FRIGATE_VERILOG)/../ip/EF_GPIO8/hdl/rtl/EF_GPIO8.v
+-v $(FRIGATE_VERILOG)/../ip/EF_GPIO8/hdl/rtl/bus_wrappers/EF_GPIO8_APB.v
+-v $(FRIGATE_VERILOG)/../ip/EF_TMR32/hdl/rtl/EF_TMR32.v
+-v $(FRIGATE_VERILOG)/../ip/EF_TMR32/hdl/rtl/bus_wrappers/EF_TMR32_APB.v
+-v $(FRIGATE_VERILOG)/../ip/EF_PSRAM_CTRL_V2/hdl/rtl/EF_PSRAM_CTRL_V2.v
+-v $(FRIGATE_VERILOG)/../ip/EF_PSRAM_CTRL_V2/hdl/rtl/bus_wrapper/EF_PSRAM_CTRL_V2_ahbl.v
+
+-v $(FRIGATE_VERILOG)/../ip/EF_QSPI_XIP_CTRL/hdl/rtl/bus_wrappers/EF_QSPI_XIP_CTRL_AHBL.v
+-v $(FRIGATE_VERILOG)/../ip/EF_QSPI_XIP_CTRL/hdl/rtl/DMC.v
+-v $(FRIGATE_VERILOG)/../ip/EF_QSPI_XIP_CTRL/hdl/rtl/EF_QSPI_XIP_CTRL.v
+-v $(FRIGATE_VERILOG)/../ip/EF_WDT32/hdl/rtl/bus_wrappers/EF_WDT32_APB.v
+-v $(FRIGATE_VERILOG)/../ip/EF_WDT32/hdl/rtl/EF_WDT32.v
+-v $(FRIGATE_VERILOG)/../ip/EF_I2S/hdl/rtl/bus_wrappers/EF_I2S_APB.v
+-v $(FRIGATE_VERILOG)/../ip/EF_I2S/hdl/rtl/EF_I2S.v
+-v $(FRIGATE_VERILOG)/../ip/EF_I2C/hdl/rtl/bus_wrappers/EF_I2C_APB.v
+-v $(FRIGATE_VERILOG)/../ip/EF_I2C/hdl/rtl/axis_fifo.v
+-v $(FRIGATE_VERILOG)/../ip/EF_I2C/hdl/rtl/i2c_master_wbs_16.v
+-v $(FRIGATE_VERILOG)/../ip/EF_I2C/hdl/rtl/i2c_master.v
+-v $(FRIGATE_VERILOG)/../ip/usb_cdc/hdl/rtl/bulk_endp.v
+-v $(FRIGATE_VERILOG)/../ip/usb_cdc/hdl/rtl/ctrl_endp.v
+-v $(FRIGATE_VERILOG)/../ip/usb_cdc/hdl/rtl/in_fifo.v
+-v $(FRIGATE_VERILOG)/../ip/usb_cdc/hdl/rtl/out_fifo.v
+-v $(FRIGATE_VERILOG)/../ip/usb_cdc/hdl/rtl/phy_rx.v
+-v $(FRIGATE_VERILOG)/../ip/usb_cdc/hdl/rtl/phy_tx.v
+-v $(FRIGATE_VERILOG)/../ip/usb_cdc/hdl/rtl/sie.v
+-v $(FRIGATE_VERILOG)/../ip/usb_cdc/hdl/rtl/usb_cdc.v
+-v $(FRIGATE_VERILOG)/../ip/usb_cdc_wrapper/hdl/rtl/usb_cdc_wrapper.v
+-v $(FRIGATE_VERILOG)/../ip/usb_cdc_wrapper/hdl/rtl/bus_wrappers/usb_cdc_wrapper_ahbl.pp.v
+
+
+-v $(FRIGATE_VERILOG)/rtl/gpio_defaults_block_16bit.v
+-v $(FRIGATE_VERILOG)/rtl/gpio_control_block.v
+
+# open frame 
+-v $(FRIGATE_VERILOG)/rtl/project_id_rom_32bit.v
+-v $(FRIGATE_VERILOG)/rtl/product_id_rom_8bit.v
+-v $(FRIGATE_VERILOG)/rtl/gpio_logic_high.v
+
+# panamax
+-v $(FRIGATE_VERILOG)/../dependencies/panamax/verilog/rtl/constant_block.v
+-v $(FRIGATE_VERILOG)/../dependencies/panamax/verilog/rtl/chip_io_128pin.v
+
+
+
+# frigate analog
+-v $(FRIGATE_VERILOG)/rtl/frigate_analog.v
+-v $(FRIGATE_VERILOG)/rtl/frigate_timing_frontend.v
+
+
+#PDK cells
+-v $(PDK_ROOT)/$(PDK)/libs.ref/sky130_fd_io/verilog/sky130_fd_io.v
+-v $(PDK_ROOT)/$(PDK)/libs.ref/sky130_fd_io/verilog/sky130_ef_io.v
+-v $(PDK_ROOT)/$(PDK)/libs.ref/sky130_fd_sc_hd/verilog/primitives.v
+-v $(PDK_ROOT)/$(PDK)/libs.ref/sky130_fd_sc_hd/verilog/sky130_fd_sc_hd.v
+-v $(PDK_ROOT)/$(PDK)/libs.ref/sky130_fd_sc_hvl/verilog/primitives.v
+-v $(PDK_ROOT)/$(PDK)/libs.ref/sky130_fd_sc_hvl/verilog/sky130_fd_sc_hvl.v
