@@ -98,7 +98,7 @@ install-ips:
 	./venv/bin/$(PYTHON_BIN) -m pip install click
 	./venv/bin/ipm install-dep
 	@echo "rewrite design_info for cocotb"
-	@(./venv/bin/$(PYTHON_BIN) $(PWD)/verilog/dv/setup-cocotb.py $(PWD) $(MGMT_ROOT) $(PDK_ROOT) $(PDK) $(PWD))
+	# @(./venv/bin/$(PYTHON_BIN) $(PWD)/verilog/dv/setup-cocotb.py $(PWD) $(MGMT_ROOT) $(PDK_ROOT) $(PDK) $(PWD))
 
 .PHONY: install-repos
 install-repos: install-mcw install-panamax install-ips install-analog
