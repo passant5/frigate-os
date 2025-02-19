@@ -2229,7 +2229,7 @@ module frigate(
     wire vcap_w_cpos;
     wire vcap_e_cpos;
 
-    chip_io_128pin panamax(
+    panamax panamax(
         .amuxbus_a_n(amuxbus_a_n),
         .amuxbus_b_n(amuxbus_b_n),
         .analog_0(analog_0),
