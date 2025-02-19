@@ -1,0 +1,144 @@
+/*
+        Copyright 2023 Efabless Corp.
+
+        Author: Mohamed Shalan (mshalan@efabless.com)
+
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
+
+            http://www.apache.org/licenses/LICENSE-2.0
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+
+*/
+#include <stdint.h>
+
+#ifndef SYSTEM_REGSREGS_H
+#define SYSTEM_REGSREGS_H
+
+#ifndef IO_TYPES
+#define IO_TYPES
+#define   __R     volatile const unsigned int
+#define   __W     volatile       unsigned int
+#define   __RW    volatile       unsigned int
+#endif
+
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SE_SWITCH_AA_SL_BIT   0
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SE_SWITCH_AA_SL_MASK  0x1
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SE_SWITCH_AA_S0_BIT   1
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SE_SWITCH_AA_S0_MASK  0x2
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SE_SWITCH_BB_S0_BIT   2
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SE_SWITCH_BB_S0_MASK  0x4
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SE_SWITCH_BB_SL_BIT   3
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SE_SWITCH_BB_SL_MASK  0x8
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SE_SWITCH_BB_SR_BIT   4
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SE_SWITCH_BB_SR_MASK  0x10
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SE_SWITCH_AA_SR_BIT   5
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SE_SWITCH_AA_SR_MASK  0x20
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SW_SWITCH_AA_SL_BIT   8
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SW_SWITCH_AA_SL_MASK  0x100
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SW_SWITCH_AA_S0_BIT   9
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SW_SWITCH_AA_S0_MASK  0x200
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SW_SWITCH_BB_S0_BIT   10
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SW_SWITCH_BB_S0_MASK  0x400
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SW_SWITCH_BB_SL_BIT   11
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SW_SWITCH_BB_SL_MASK  0x800
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SW_SWITCH_BB_SR_BIT   12
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SW_SWITCH_BB_SR_MASK  0x1000
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SW_SWITCH_AA_SR_BIT   13
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_SW_SWITCH_AA_SR_MASK  0x2000
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NE_SWITCH_AA_SL_BIT   16
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NE_SWITCH_AA_SL_MASK  0x10000
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NE_SWITCH_AA_S0_BIT   17
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NE_SWITCH_AA_S0_MASK  0x20000
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NE_SWITCH_BB_S0_BIT   18
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NE_SWITCH_BB_S0_MASK  0x40000
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NE_SWITCH_BB_SL_BIT   19
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NE_SWITCH_BB_SL_MASK  0x80000
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NE_SWITCH_BB_SR_BIT   20
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NE_SWITCH_BB_SR_MASK  0x100000
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NE_SWITCH_AA_SR_BIT   21
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NE_SWITCH_AA_SR_MASK  0x200000
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NW_SWITCH_AA_SL_BIT   22
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NW_SWITCH_AA_SL_MASK  0x400000
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NW_SWITCH_AA_S0_BIT   23
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NW_SWITCH_AA_S0_MASK  0x800000
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NW_SWITCH_BB_S0_BIT   24
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NW_SWITCH_BB_S0_MASK  0x1000000
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NW_SWITCH_BB_SL_BIT   25
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NW_SWITCH_BB_SL_MASK  0x2000000
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NW_SWITCH_BB_SR_BIT   26
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NW_SWITCH_BB_SR_MASK  0x4000000
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NW_SWITCH_AA_SR_BIT   27
+#define SYSTEM_REGS_MUXSPLIT_CONTROL_REG_MUXSPLIT_NW_SWITCH_AA_SR_MASK  0x8000000
+
+
+typedef struct _SYSTEM_REGS_TYPE_ {
+        __W     muxsplit_control;
+        __W     user_ahb_enable;
+        __W     user_irqs_enable;
+        __W     sio_cfg;
+        __R     mgmt_select;
+        __W     vref_control;
+        __R     reserved_0[16315];
+        __RW    IM;
+        __R     MIS;
+        __R     RIS;
+        __W     IC;
+} SYSTEM_REGS_TYPE;
+
+void SYS_REGS_setMuxsplitControl (uint32_t sys_regs_base, int value){
+
+    SYSTEM_REGS_TYPE* sys_regs = (SYSTEM_REGS_TYPE*)sys_regs_base;
+
+    sys_regs -> muxsplit_control = value;
+
+}
+
+void SYS_REGS_setUserAHBenable (uint32_t sys_regs_base, int value){
+
+    SYSTEM_REGS_TYPE* sys_regs = (SYSTEM_REGS_TYPE*)sys_regs_base;
+
+    sys_regs -> user_ahb_enable = value;
+
+}
+
+void SYS_REGS_setUserIrqsEnable (uint32_t sys_regs_base, int value){
+
+    SYSTEM_REGS_TYPE* sys_regs = (SYSTEM_REGS_TYPE*)sys_regs_base;
+
+    sys_regs -> user_irqs_enable = value;
+
+}
+
+void SYS_REGS_setSioCfg (uint32_t sys_regs_base, int value){
+
+    SYSTEM_REGS_TYPE* sys_regs = (SYSTEM_REGS_TYPE*)sys_regs_base;
+
+    sys_regs -> sio_cfg = value;
+
+}
+
+int SYS_REGS_getMgmtSelect (uint32_t sys_regs_base){
+
+    SYSTEM_REGS_TYPE* sys_regs = (SYSTEM_REGS_TYPE*)sys_regs_base;
+
+    return sys_regs -> mgmt_select;
+
+}
+
+void SYS_REGS_setvrefCtrl (uint32_t sys_regs_base, int value){
+
+    SYSTEM_REGS_TYPE* sys_regs = (SYSTEM_REGS_TYPE*)sys_regs_base;
+
+    sys_regs -> vref_control = value;
+
+}
+
+
+#endif
