@@ -17,7 +17,6 @@
 # defines 
 -v $(USER_PROJECT_VERILOG)/rtl/defines.v
 -v $(USER_PROJECT_VERILOG)/rtl/user_defines.v
--v $(USER_PROJECT_VERILOG)/rtl/issues.v
 
 
 # Caravel user project includes
