@@ -188,6 +188,7 @@
 
 -v $(FRIGATE_VERILOG)/rtl/gpio_defaults_block_16bit.v
 -v $(FRIGATE_VERILOG)/rtl/gpio_control_block.v
+-v $(FRIGATE_VERILOG)/rtl/gpio_control_block_mgmt_monitor.v
 
 # open frame 
 -v $(FRIGATE_VERILOG)/rtl/project_id_rom_32bit.v
@@ -195,14 +196,14 @@
 -v $(FRIGATE_VERILOG)/rtl/gpio_logic_high.v
 
 # panamax
--v $(FRIGATE_VERILOG)/../dependencies/panamax/verilog/rtl/constant_block.v
--v $(FRIGATE_VERILOG)/../dependencies/panamax/verilog/rtl/chip_io_128pin.v
+-v $(FRIGATE_VERILOG)/../dependencies/caravel_panamax/verilog/rtl/constant_block.v
+-v $(FRIGATE_VERILOG)/../dependencies/panamax/verilog/rtl/panamax.v
 
 
 
 # frigate analog
--v $(FRIGATE_VERILOG)/rtl/frigate_analog.v
--v $(FRIGATE_VERILOG)/rtl/frigate_timing_frontend.v
+-v $(FRIGATE_VERILOG)/../dependencies/frigate_analog/verilog/frigate_analog.v
+-v $(FRIGATE_VERILOG)/../dependencies/frigate_analog/verilog/frigate_timing_frontend.v
 
 
 #PDK cells
