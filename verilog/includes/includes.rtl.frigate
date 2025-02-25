@@ -127,7 +127,6 @@
 
 -v $(FRIGATE_VERILOG)/../ip/EF_QSPI_FLASH_WRITER/hdl/rtl/EF_QSPI_FLASH_WRITER.v
 
--v $(FRIGATE_VERILOG)/rtl/user_project_wrapper_empty.v
 -v $(FRIGATE_VERILOG)/rtl/vccd1_tie_high.v
 -v $(FRIGATE_VERILOG)/rtl/mgmt_protect.v
 # Ram 
