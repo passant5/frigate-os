@@ -94,9 +94,9 @@ install-ips:
 	$(PYTHON_BIN) -m venv ./venv
 	./venv/bin/$(PYTHON_BIN) -m pip install --upgrade pip
 	./venv/bin/$(PYTHON_BIN) -m pip install wheel
-	./venv/bin/$(PYTHON_BIN) -m pip install ipmgr==1.0.5
+	./venv/bin/$(PYTHON_BIN) -m pip install ipmgr
 	./venv/bin/$(PYTHON_BIN) -m pip install click
-	./venv/bin/ipm install-dep
+	./venv/bin/ipm install-dep --ipm-root ~/.ipm
 	@echo "rewrite design_info for cocotb"
 	# @(./venv/bin/$(PYTHON_BIN) $(PWD)/verilog/dv/setup-cocotb.py $(PWD) $(MGMT_ROOT) $(PDK_ROOT) $(PDK) $(PWD))
 
