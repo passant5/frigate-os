@@ -70,23 +70,27 @@ import click
 import subprocess
 
 
-
 @click.command(
     help="""
     Manipulate the magic database to create and apply defaults to the GPIO 
     control blocks based on the user's specification in the user_defines.v file
+    
+    \b
+    DIR is the project top-level directory. Default is CWD.
+    user_defines.v file must exist in verilog/rtl/ relative to DIR
     """
 )
 @click.argument(
     "dir",
     type=click.Path(exists=True, file_okay=False),
     default=os.getcwd(),
-    required=False
+    required=False,
 )
 @click.option(
     "--debug",
     is_flag=True,
     default=False,
+    help="Test the script without modifying GLs or mag and print messages",
 )
 def main(dir, debug):
     # Generate zero and one coordinates for each via based on their positions in the 0 gpio defaults mag
@@ -300,7 +304,7 @@ def main(dir, debug):
     )
 
     if debug:
-        print("Test only:  Caravel top gate-level verilog:")
+        print("Test only:  frigate_core gate-level verilog:")
     with open(frigate_path + "/verilog/gl/frigate_core.v", "r") as ifile:
         vlines = ifile.readlines()
     outlines = []

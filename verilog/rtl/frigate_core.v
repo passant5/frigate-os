@@ -4834,7 +4834,7 @@ wire NC_0; // no connect
 );
 
   /* Section 1 GPIOs (GPIO 8 to 32) */
-  gpio_control_block gpio_control_32_8 [`MPRJ_IO_PADS_1-1:8] (
+  gpio_control_block_mgmt_monitor gpio_control_32_8 [`MPRJ_IO_PADS_1-1:8] (
 `ifdef USE_POWER_PINS
     .vccd(vccd0),
     .vssd(vssd0),
@@ -4943,7 +4943,7 @@ wire NC_0; // no connect
     assign port7_mgmt_oeb[7:5] = ~gpioG_io_oe[7:5];
 
   /* Section 2 GPIOs (GPIO 33 to 65) */
-  gpio_control_block gpio_control_65_33 [`MPRJ_IO_PADS-1:`MPRJ_IO_PADS_1] (
+  gpio_control_block_mgmt_monitor gpio_control_65_33 [`MPRJ_IO_PADS-1:`MPRJ_IO_PADS_1] (
 `ifdef USE_POWER_PINS
     .vccd(vccd0),
     .vssd(vssd0),

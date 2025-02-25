@@ -187,7 +187,7 @@
 
 -v $(FRIGATE_VERILOG)/rtl/gpio_defaults_block_16bit.v
 -v $(FRIGATE_VERILOG)/rtl/gpio_control_block.v
-#-v $(FRIGATE_VERILOG)/rtl/gpio_control_block_mgmt_monitor.v
+-v $(FRIGATE_VERILOG)/rtl/gpio_control_block_mgmt_monitor.v
 
 # open frame 
 -v $(FRIGATE_VERILOG)/rtl/project_id_rom_32bit.v
