@@ -203,6 +203,7 @@
 # frigate analog
 -v $(FRIGATE_VERILOG)/../dependencies/frigate_analog/verilog/frigate_analog.v
 -v $(FRIGATE_VERILOG)/../dependencies/frigate_analog/verilog/frigate_timing_frontend.v
+-v $(FRIGATE_VERILOG)/../dependencies/frigate_analog/verilog/xres_buf.v
 
 
 #PDK cells

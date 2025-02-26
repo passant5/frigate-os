@@ -15,105 +15,79 @@
 
 
 # defines 
--v $(USER_PROJECT_VERILOG)/rtl/defines.v
--v $(USER_PROJECT_VERILOG)/rtl/user_defines.v
+-v $(FRIGATE_VERILOG)/rtl/defines.v
+-v $(FRIGATE_VERILOG)/rtl/user_defines.v
 
-
-# Caravel user project includes
--v $(USER_PROJECT_VERILOG)/rtl/frigate.v     
--v $(USER_PROJECT_VERILOG)/gl/frigate_core.v  
+# Frigate user project includes
+-v $(FRIGATE_VERILOG)/gl/frigate.v  
 
 # VIP
--v $(USER_PROJECT_VERILOG)/vip/user_vip_flash_spi.v
--v $(USER_PROJECT_VERILOG)/vip/sst26wf080b.v
--v $(USER_PROJECT_VERILOG)/vip/sky130_ef_ip__rc_osc_16M.v
--v $(USER_PROJECT_VERILOG)/vip/sky130_ef_ip__rc_osc_500k.v
--v $(USER_PROJECT_VERILOG)/vip/sky130_ef_ip__xtal_osc_16M.v
--v $(USER_PROJECT_VERILOG)/vip/sky130_ef_ip__xtal_osc_32k.v
--v $(USER_PROJECT_VERILOG)/vip/frigate_adc_12_bit.v
+-v $(FRIGATE_VERILOG)/vip/user_vip_flash_spi.v
+-v $(FRIGATE_VERILOG)/vip/sst26wf080b.v
+-v $(FRIGATE_VERILOG)/vip/sky130_ef_ip__rc_osc_16M.v
+-v $(FRIGATE_VERILOG)/vip/sky130_ef_ip__rc_osc_500k.v
+-v $(FRIGATE_VERILOG)/vip/sky130_ef_ip__xtal_osc_16M.v
+-v $(FRIGATE_VERILOG)/vip/sky130_ef_ip__xtal_osc_32k.v
+-v $(FRIGATE_VERILOG)/vip/frigate_adc_12_bit.v
+-v $(FRIGATE_VERILOG)/vip/simple_por.v
 
-
-#Hazard3 verilog files 
-
-#-v $(USER_PROJECT_VERILOG)/vip/EF_DACSCA1001.v
-#-v $(USER_PROJECT_VERILOG)/vip/EF_R2RVC02.v
-#-v $(USER_PROJECT_VERILOG)/vip/EF_ADCS1008NC.v
-
--v $(USER_PROJECT_VERILOG)/rtl/EF_SRAM_1024x32.v
--v $(USER_PROJECT_VERILOG)/rtl/EF_SRAM_1024x32_wrapper.v
--v $(USER_PROJECT_VERILOG)/gl/vccd1_tie_high.v
--v $(USER_PROJECT_VERILOG)/gl/mgmt_protect.v
+#EF_SRAM abstract verilog files 
+-v $(FRIGATE_VERILOG)/../ip/EF_SRAM_1024x32/hdl/beh_models/EF_SRAM_1024x32.ss_160V_n40C.v
+-v $(FRIGATE_VERILOG)/../ip/EF_SRAM_1024x32/hdl/EF_SRAM_1024x32.v
 
 #user 
--v $(USER_PROJECT_VERILOG)/gl/user_project_wrapper.v
--v $(USER_PROJECT_VERILOG)/gl/SW_AES_AHBL.v
--v $(USER_PROJECT_VERILOG)/gl/SW_SHA256_AHBL.v
--v $(USER_PROJECT_VERILOG)/gl/Conv2d_AHBL.v
+-v $(FRIGATE_VERILOG)/gl/vccd1_tie_high.v
+-v $(FRIGATE_VERILOG)/gl/mgmt_protect.v
 
 # new macros
-#-v $(USER_PROJECT_VERILOG)/gl/hazard3_cpu_2port.v
--v $(USER_PROJECT_VERILOG)/gl/can_top_level.v
--v $(USER_PROJECT_VERILOG)/gl/EF_QSPI_XIP_CTRL_ahbl.v
--v $(USER_PROJECT_VERILOG)/gl/usb_cdc_wrapper_ahbl.v
+-v $(FRIGATE_VERILOG)/gl/ctu_can.v
+-v $(FRIGATE_VERILOG)/gl/EF_QSPI_XIP_CTRL_AHBL.v
+-v $(FRIGATE_VERILOG)/gl/usb_cdc_wrapper_ahbl.v
 
 #clk rst
-#-v $(USER_PROJECT_VERILOG)/gl/clk_rst.v
-
--v $(USER_PROJECT_VERILOG)/rtl/clk_rst/CLK_RST_AHBL.pp.v
--v $(USER_PROJECT_VERILOG)/rtl/clk_rst/clk_rst.v
--v $(USER_PROJECT_VERILOG)/rtl/clk_rst/prog_delay_line.v
--v $(USER_PROJECT_VERILOG)/rtl/clk_rst/clk_div.v
--v $(USER_PROJECT_VERILOG)/rtl/clk_rst/clkmux_2x1.v
--v $(USER_PROJECT_VERILOG)/rtl/clk_rst/clkmux_4x1.v
--v $(USER_PROJECT_VERILOG)/rtl/clk_rst/rst_sync.v
-
-# Housekeeping 
--v $(USER_PROJECT_VERILOG)/gl/housekeeping.v
-# ANALOG_CTRL_REGS_APB
--v $(USER_PROJECT_VERILOG)/gl/ANALOG_CTRL_REGS_APB.v
-
-#IP_Utilities
--v $(USER_PROJECT_VERILOG)/../ip/IP_Utilities/rtl/aucohl_lib.v
--v $(USER_PROJECT_VERILOG)/../ip/IP_Utilities/rtl/aucohl_rtl.vh
-
-# IDs
--v $(USER_PROJECT_VERILOG)/gl/project_id_rom_32bit.v
--v $(USER_PROJECT_VERILOG)/gl/product_id_rom_8bit.v
-
-# open frame 
--v $(CARAVEL_PATH)/rtl/constant_block.v
--v $(CARAVEL_PATH)/rtl/xres_buf.v
--v $(CARAVEL_PATH)/rtl/simple_por.v
--v $(CARAVEL_PATH)/rtl/pads.v
-
-#logic high
--v $(USER_PROJECT_VERILOG)/gl/gpio_logic_high.v
-
-# panamax
--v $(USER_PROJECT_VERILOG)/../dependencies/caravel_panamax/verilog/rtl/chip_io_128pin.v
-
-# gpio control block
--v $(USER_PROJECT_VERILOG)/gl/gpio_control_block.v
-
+#-v $(FRIGATE_VERILOG)/gl/clk_rst.v
+#RTL
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/clk_rst/clk_rst_AHBL.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/clk_rst/clk_rst.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/clk_rst/clk_div.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/clk_rst/clkmux_2x1.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/clk_rst/clkmux_4x1.v
+-v $(FRIGATE_VERILOG)/rtl/utils/reset_sync.v
 
 # dll
--v $(USER_PROJECT_VERILOG)/rtl/dll/dll_controller.v
--v $(USER_PROJECT_VERILOG)/rtl/dll/dll.v
--v $(USER_PROJECT_VERILOG)/rtl/dll/ring_osc2x13.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/clk_rst/dll/dll_controller.v
+-v $(FRIGATE_VERILOG)/rtl/ahbl_0/clk_rst/dll/dll.v
+-v $(FRIGATE_VERILOG)/vip/ring_osc2x13.v
+
+# Housekeeping 
+-v $(FRIGATE_VERILOG)/gl/housekeeping.v
+
+# analog_ctrl_regs_APB
+-v $(FRIGATE_VERILOG)/gl/analog_ctrl_regs_APB.v
+
+# IDs
+-v $(FRIGATE_VERILOG)/gl/project_id_rom_32bit.v
+-v $(FRIGATE_VERILOG)/gl/product_id_rom_8bit.v
+
+#logic high
+-v $(FRIGATE_VERILOG)/gl/gpio_logic_high.v
+
+# gpio control block
+-v $(FRIGATE_VERILOG)/gl/gpio_control_block.v
+-v $(FRIGATE_VERILOG)/gl/gpio_control_block_mgmt_monitor.v
+
+# panamax
+-v $(FRIGATE_VERILOG)/../dependencies/panamax/verilog/rtl/constant_block.v
+-v $(FRIGATE_VERILOG)/../dependencies/panamax/verilog/rtl/panamax.v
 
 # frigate analog
--v $(USER_PROJECT_VERILOG)/rtl/frigate_analog.v
--v $(USER_PROJECT_VERILOG)/rtl/frigate_timing_frontend.v
+-v $(FRIGATE_VERILOG)/../dependencies/frigate_analog/verilog/frigate_analog.v
+-v $(FRIGATE_VERILOG)/../dependencies/frigate_analog/verilog/frigate_timing_frontend.v
+-v $(FRIGATE_VERILOG)/../dependencies/frigate_analog/verilog/xres_buf.v
 
 # analog routes 
--v $(USER_PROJECT_VERILOG)/gl/analog_routes.v
--v $(USER_PROJECT_VERILOG)/gl/manual_power_connections.v
-
-# defaults 
--v $(USER_PROJECT_VERILOG)/gl/gpio_defaults_block_16bit_8c01.v
--v $(USER_PROJECT_VERILOG)/gl/gpio_defaults_block_16bit_8801.v
--v $(USER_PROJECT_VERILOG)/gl/gpio_defaults_block_16bit_9801.v
--v $(USER_PROJECT_VERILOG)/gl/gpio_defaults_block_16bit_9809.v
+-v $(FRIGATE_VERILOG)/gl/analog_routes.v
+-v $(FRIGATE_VERILOG)/gl/manual_power_connections.v
 
 #PDK cells
 -v $(PDK_ROOT)/$(PDK)/libs.ref/sky130_fd_io/verilog/sky130_fd_io.v
