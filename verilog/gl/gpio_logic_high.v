@@ -7,7 +7,7 @@ module gpio_logic_high (gpio_logic1,
 
  wire net1;
 
- sky130_fd_sc_hd__decap_4 FILLER_0_3 (.VGND(vssd1),
+ sky130_fd_sc_hd__decap_3 FILLER_0_3 (.VGND(vssd1),
     .VNB(vssd1),
     .VPB(vccd1),
     .VPWR(vccd1));
@@ -36,7 +36,7 @@ module gpio_logic_high (gpio_logic1,
     .VPB(vccd1),
     .VPWR(vccd1),
     .HI(net1));
- sky130_fd_sc_hd__fill_1 FILLER_0_7 (.VGND(vssd1),
+ sky130_fd_sc_hd__fill_2 FILLER_0_6 (.VGND(vssd1),
     .VNB(vssd1),
     .VPB(vccd1),
     .VPWR(vccd1));

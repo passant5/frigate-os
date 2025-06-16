@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749950100
+timestamp 1750116680
 << viali >>
 rect 673 765 707 799
 << metal1 >>
@@ -70,14 +70,14 @@ rect 426 -26 438 26
 rect 490 -26 500 26
 rect 300 -48 500 -26
 rect 900 -48 1100 518
-use sky130_fd_sc_hd__decap_4  FILLER_0_3
+use sky130_fd_sc_hd__decap_3  FILLER_0_3
 timestamp 21601
 transform 1 0 276 0 1 0
-box -38 -48 406 592
-use sky130_fd_sc_hd__fill_1  FILLER_0_7
+box -38 -48 314 592
+use sky130_fd_sc_hd__fill_2  FILLER_0_6
 timestamp 21601
-transform 1 0 644 0 1 0
-box -38 -48 130 592
+transform 1 0 552 0 1 0
+box -38 -48 222 592
 use sky130_fd_sc_hd__fill_1  FILLER_0_9
 timestamp 21601
 transform 1 0 828 0 1 0
@@ -91,7 +91,7 @@ timestamp 21601
 transform 1 0 828 0 -1 1088
 box -38 -48 130 592
 use sky130_fd_sc_hd__conb_1  gpio_logic_high_1
-timestamp 21601
+timestamp 1562557784
 transform -1 0 736 0 -1 1088
 box -38 -48 314 592
 use sky130_fd_sc_hd__decap_3  PHY_EDGE_ROW_0_Left_2

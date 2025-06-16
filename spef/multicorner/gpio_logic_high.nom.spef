@@ -1,6 +1,6 @@
 *SPEF "ieee 1481-1999"
 *DESIGN "gpio_logic_high"
-*DATE "20:14:59 Saturday June 14, 2025"
+*DATE "18:31:19 Monday June 16, 2025"
 *VENDOR "The OpenROAD Project"
 *PROGRAM "OpenROAD"
 *VERSION "edf00dff99f6c40d67a30c0e22a8191c5d2ed9d6"
@@ -16,7 +16,7 @@
 *NAME_MAP
 *1 net1
 *2 FILLER_0_3
-*3 FILLER_0_7
+*3 FILLER_0_6
 *4 FILLER_0_9
 *5 FILLER_1_3
 *6 FILLER_1_9

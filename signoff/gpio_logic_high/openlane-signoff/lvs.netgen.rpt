@@ -91,34 +91,17 @@ VPWR                                       |VPWR
 Cell pin lists are equivalent.
 Device classes sky130_fd_sc_hd__tapvpwrvgnd_1 and sky130_fd_sc_hd__tapvpwrvgnd_1 are equivalent.
 
-Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VGND
-Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VNB
-Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VPB
-Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VPWR
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hd__decap_4        |Circuit 2: sky130_fd_sc_hd__decap_4        
--------------------------------------------|-------------------------------------------
-VGND                                       |VGND                                       
-VNB                                        |VNB                                        
-VPB                                        |VPB                                        
-VPWR                                       |VPWR                                       
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hd__decap_4 and sky130_fd_sc_hd__decap_4 are equivalent.
-
-Class gpio_logic_high (0):  Merged 6 parallel devices.
-Class gpio_logic_high (1):  Merged 6 parallel devices.
+Class gpio_logic_high (0):  Merged 7 parallel devices.
+Class gpio_logic_high (1):  Merged 7 parallel devices.
 Subcircuit summary:
 Circuit 1: gpio_logic_high                 |Circuit 2: gpio_logic_high                 
 -------------------------------------------|-------------------------------------------
-sky130_fd_sc_hd__decap_3 (4->1)            |sky130_fd_sc_hd__decap_3 (4->1)            
+sky130_fd_sc_hd__decap_3 (5->1)            |sky130_fd_sc_hd__decap_3 (5->1)            
 sky130_fd_sc_hd__conb_1 (1)                |sky130_fd_sc_hd__conb_1 (1)                
-sky130_fd_sc_hd__fill_2 (1)                |sky130_fd_sc_hd__fill_2 (1)                
-sky130_fd_sc_hd__fill_1 (3->1)             |sky130_fd_sc_hd__fill_1 (3->1)             
+sky130_fd_sc_hd__fill_2 (2->1)             |sky130_fd_sc_hd__fill_2 (2->1)             
+sky130_fd_sc_hd__fill_1 (2->1)             |sky130_fd_sc_hd__fill_1 (2->1)             
 sky130_fd_sc_hd__tapvpwrvgnd_1 (2->1)      |sky130_fd_sc_hd__tapvpwrvgnd_1 (2->1)      
-sky130_fd_sc_hd__decap_4 (1)               |sky130_fd_sc_hd__decap_4 (1)               
-Number of devices: 6                       |Number of devices: 6                       
+Number of devices: 5                       |Number of devices: 5                       
 Number of nets: 4                          |Number of nets: 4                          
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.

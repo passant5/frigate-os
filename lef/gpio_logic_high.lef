@@ -56,12 +56,13 @@ MACRO gpio_logic_high
       LAYER pwell ;
         RECT 1.525 -0.085 1.695 0.105 ;
       LAYER nwell ;
-        RECT 1.695 0.055 5.665 0.105 ;
-        RECT 1.695 0.000 3.360 0.055 ;
+        RECT 1.695 0.060 5.665 0.105 ;
+        RECT 1.695 0.000 2.915 0.060 ;
       LAYER pwell ;
-        RECT 3.360 -0.055 3.480 0.055 ;
+        RECT 2.915 -0.050 3.075 0.060 ;
       LAYER nwell ;
-        RECT 3.480 0.000 4.280 0.055 ;
+        RECT 3.075 0.055 5.665 0.060 ;
+        RECT 3.075 0.000 4.280 0.055 ;
       LAYER pwell ;
         RECT 4.280 -0.055 4.400 0.055 ;
       LAYER nwell ;

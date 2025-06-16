@@ -27,7 +27,7 @@ library (gpio_logic_high) {
 
 
   cell ("gpio_logic_high") {
-    area : 23.773 
+    area : 22.522 
     is_macro_cell : true;
     pin("gpio_logic1") {
       direction : output;
