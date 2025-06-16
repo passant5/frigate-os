@@ -55,3 +55,7 @@ PDN_MACRO_CONNECTIONS:
     - gpio_logic_high vccd1 vssd1 vccd1 vssd1
 
 SYNTH_EXTRA_MAPPING_FILE: dir::yosys_mapping.v
+
+MAGIC_EXT_USE_GDS: true
+LVS_INCLUDE_MARCO_NETLISTS: true
+MAGIC_NO_EXT_UNIQUE: true
