@@ -122,7 +122,7 @@ library (mgmt_protect) {
   }
 
   cell ("mgmt_protect") {
-    area : 4370.430 
+    area : 9355.146 
     is_macro_cell : true;
     pin("frigate_HCLK") {
       direction : input;
