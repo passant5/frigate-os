@@ -73,7 +73,7 @@ library (housekeeping) {
   }
 
   cell ("housekeeping") {
-    area : 40957.961 
+    area : 75677.750 
     is_macro_cell : true;
     pin("hk_spi_csb") {
       direction : input;

@@ -2,15 +2,20 @@ Netgen 1.5.278 compiled on Sun Sep 29 13:25:00 UTC 2024
 Warning: netgen command 'format' use fully-qualified name '::netgen::format'
 Warning: netgen command 'global' use fully-qualified name '::netgen::global'
 Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
-Reading SPICE netlist file '/Users/administrator/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice'...
+Reading SPICE netlist file '/Users/administrator/.ciel/ciel/sky130/versions/823ec23c421cfb1d6aec06b8140cbde11cbc95a0/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice'...
 Call to undefined subcircuit sky130_fd_pr__pfet_01v8_hvt
 Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__nfet_01v8
 Creating placeholder cell definition.
-Reading SPICE netlist file '/Users/administrator/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_12.spice'...
-Reading SPICE netlist file '/Users/administrator/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_4.spice'...
-Reading SPICE netlist file '/Users/administrator/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_8.spice'...
-Reading SPICE netlist file '/Users/administrator/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice'...
+Reading SPICE netlist file '/Users/administrator/.ciel/ciel/sky130/versions/823ec23c421cfb1d6aec06b8140cbde11cbc95a0/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_20_12.spice'...
+Reading SPICE netlist file '/Users/administrator/.ciel/ciel/sky130/versions/823ec23c421cfb1d6aec06b8140cbde11cbc95a0/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_40_12.spice'...
+Reading SPICE netlist file '/Users/administrator/.ciel/ciel/sky130/versions/823ec23c421cfb1d6aec06b8140cbde11cbc95a0/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_60_12.spice'...
+Reading SPICE netlist file '/Users/administrator/.ciel/ciel/sky130/versions/823ec23c421cfb1d6aec06b8140cbde11cbc95a0/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_80_12.spice'...
+Reading SPICE netlist file '/Users/administrator/.ciel/ciel/sky130/versions/823ec23c421cfb1d6aec06b8140cbde11cbc95a0/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_12.spice'...
+Reading SPICE netlist file '/Users/administrator/.ciel/ciel/sky130/versions/823ec23c421cfb1d6aec06b8140cbde11cbc95a0/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_2.spice'...
+Reading SPICE netlist file '/Users/administrator/.ciel/ciel/sky130/versions/823ec23c421cfb1d6aec06b8140cbde11cbc95a0/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_4.spice'...
+Reading SPICE netlist file '/Users/administrator/.ciel/ciel/sky130/versions/823ec23c421cfb1d6aec06b8140cbde11cbc95a0/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__fill_8.spice'...
+Reading SPICE netlist file '/Users/administrator/.ciel/ciel/sky130/versions/823ec23c421cfb1d6aec06b8140cbde11cbc95a0/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice'...
 Call to undefined subcircuit sky130_fd_pr__res_generic_po
 Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__special_nfet_01v8
@@ -121,27 +126,16 @@ Circuit contains 0 nets, and 4 disconnected pins.
 
 Circuit sky130_fd_sc_hd__fill_1 contains no devices.
 
-Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_6'
-Circuit sky130_fd_sc_hd__decap_6 contains 0 device instances.
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_3'
+Circuit sky130_fd_sc_hd__decap_3 contains 0 device instances.
 Circuit contains 0 nets, and 4 disconnected pins.
-Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_6'
-Circuit sky130_fd_sc_hd__decap_6 contains 2 device instances.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_3'
+Circuit sky130_fd_sc_hd__decap_3 contains 2 device instances.
   Class: sky130_fd_pr__nfet_01v8 instances:   1
   Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
 Circuit contains 4 nets.
 
-Circuit sky130_fd_sc_hd__decap_6 contains no devices.
-
-Contents of circuit 1:  Circuit: 'sky130_ef_sc_hd__decap_12'
-Circuit sky130_ef_sc_hd__decap_12 contains 0 device instances.
-Circuit contains 0 nets, and 4 disconnected pins.
-Contents of circuit 2:  Circuit: 'sky130_ef_sc_hd__decap_12'
-Circuit sky130_ef_sc_hd__decap_12 contains 2 device instances.
-  Class: sky130_fd_pr__nfet_01v8 instances:   1
-  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
-Circuit contains 4 nets.
-
-Circuit sky130_ef_sc_hd__decap_12 contains no devices.
+Circuit sky130_fd_sc_hd__decap_3 contains no devices.
 
 Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__and4_1'
 Circuit sky130_fd_sc_hd__and4_1 contains 0 device instances.
@@ -174,17 +168,6 @@ Circuit contains 0 nets, and 4 disconnected pins.
 
 Circuit sky130_fd_sc_hd__fill_2 contains no devices.
 
-Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_3'
-Circuit sky130_fd_sc_hd__decap_3 contains 0 device instances.
-Circuit contains 0 nets, and 4 disconnected pins.
-Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_3'
-Circuit sky130_fd_sc_hd__decap_3 contains 2 device instances.
-  Class: sky130_fd_pr__nfet_01v8 instances:   1
-  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
-Circuit contains 4 nets.
-
-Circuit sky130_fd_sc_hd__decap_3 contains no devices.
-
 Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__a31o_1'
 Circuit sky130_fd_sc_hd__a31o_1 contains 0 device instances.
 Circuit contains 0 nets, and 9 disconnected pins.
@@ -195,28 +178,6 @@ Circuit sky130_fd_sc_hd__a31o_1 contains 10 device instances.
 Circuit contains 13 nets.
 
 Circuit sky130_fd_sc_hd__a31o_1 contains no devices.
-
-Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_4'
-Circuit sky130_fd_sc_hd__decap_4 contains 0 device instances.
-Circuit contains 0 nets, and 4 disconnected pins.
-Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_4'
-Circuit sky130_fd_sc_hd__decap_4 contains 2 device instances.
-  Class: sky130_fd_pr__nfet_01v8 instances:   1
-  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
-Circuit contains 4 nets.
-
-Circuit sky130_fd_sc_hd__decap_4 contains no devices.
-
-Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_8'
-Circuit sky130_fd_sc_hd__decap_8 contains 0 device instances.
-Circuit contains 0 nets, and 4 disconnected pins.
-Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_8'
-Circuit sky130_fd_sc_hd__decap_8 contains 2 device instances.
-  Class: sky130_fd_pr__nfet_01v8 instances:   1
-  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
-Circuit contains 4 nets.
-
-Circuit sky130_fd_sc_hd__decap_8 contains no devices.
 
 Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__tapvpwrvgnd_1'
 Circuit sky130_fd_sc_hd__tapvpwrvgnd_1 contains 0 device instances.
@@ -2136,7 +2097,7 @@ Circuit contains 14 nets.
 Circuit sky130_fd_sc_hd__o32ai_1 contains no devices.
 
 Contents of circuit 1:  Circuit: 'housekeeping'
-Circuit housekeeping contains 10684 device instances.
+Circuit housekeeping contains 19387 device instances.
   Class: sky130_fd_sc_hd__bufinv_16 instances:   1
   Class: sky130_fd_sc_hd__o2111ai_1 instances:  14
   Class: sky130_fd_sc_hd__o2111ai_2 instances:   2
@@ -2176,7 +2137,6 @@ Circuit housekeeping contains 10684 device instances.
   Class: sky130_fd_sc_hd__o221ai_4 instances:   2
   Class: sky130_fd_sc_hd__dfstp_1 instances:   1
   Class: sky130_fd_sc_hd__dfstp_2 instances:   1
-  Class: sky130_ef_sc_hd__decap_12 instances: 2364
   Class: sky130_fd_sc_hd__dfrtp_1 instances:  55
   Class: sky130_fd_sc_hd__dfrtp_2 instances:  11
   Class: sky130_fd_sc_hd__dfrtp_4 instances:  12
@@ -2215,10 +2175,7 @@ Circuit housekeeping contains 10684 device instances.
   Class: sky130_fd_sc_hd__and3_4 instances:  18
   Class: sky130_fd_sc_hd__dlymetal6s4s_1 instances:   1
   Class: sky130_fd_sc_hd__a2111o_1 instances:   7
-  Class: sky130_fd_sc_hd__decap_3 instances: 494
-  Class: sky130_fd_sc_hd__decap_4 instances: 360
-  Class: sky130_fd_sc_hd__decap_6 instances: 638
-  Class: sky130_fd_sc_hd__decap_8 instances: 447
+  Class: sky130_fd_sc_hd__decap_3 instances: 12691
   Class: sky130_fd_sc_hd__dlygate4sd3_1 instances: 116
   Class: sky130_fd_sc_hd__or2_1 instances:  10
   Class: sky130_fd_sc_hd__or2_2 instances:   4
@@ -2311,8 +2268,8 @@ Circuit housekeeping contains 10684 device instances.
   Class: sky130_fd_sc_hd__a311o_1 instances:  13
   Class: sky130_fd_sc_hd__a21oi_4 instances:   1
   Class: sky130_fd_sc_hd__a311o_2 instances:   2
-  Class: sky130_fd_sc_hd__fill_1 instances: 1197
-  Class: sky130_fd_sc_hd__fill_2 instances: 306
+  Class: sky130_fd_sc_hd__fill_1 instances: 1206
+  Class: sky130_fd_sc_hd__fill_2 instances: 612
   Class: sky130_fd_sc_hd__o211ai_1 instances:  14
   Class: sky130_fd_sc_hd__o211ai_2 instances:   5
   Class: sky130_fd_sc_hd__o211ai_4 instances:   1
@@ -2324,7 +2281,7 @@ Circuit housekeeping contains 10684 device instances.
   Class: sky130_fd_sc_hd__nor2_8 instances:   2
 Circuit contains 2597 nets, and 4 disconnected pins.
 Contents of circuit 2:  Circuit: 'housekeeping'
-Circuit housekeeping contains 10684 device instances.
+Circuit housekeeping contains 19387 device instances.
   Class: sky130_fd_sc_hd__bufinv_16 instances:   1
   Class: sky130_fd_sc_hd__o2111ai_1 instances:  14
   Class: sky130_fd_sc_hd__o2111ai_2 instances:   2
@@ -2364,7 +2321,6 @@ Circuit housekeeping contains 10684 device instances.
   Class: sky130_fd_sc_hd__o221ai_4 instances:   2
   Class: sky130_fd_sc_hd__dfstp_1 instances:   1
   Class: sky130_fd_sc_hd__dfstp_2 instances:   1
-  Class: sky130_ef_sc_hd__decap_12 instances: 2364
   Class: sky130_fd_sc_hd__dfrtp_1 instances:  55
   Class: sky130_fd_sc_hd__dfrtp_2 instances:  11
   Class: sky130_fd_sc_hd__dfrtp_4 instances:  12
@@ -2403,10 +2359,7 @@ Circuit housekeeping contains 10684 device instances.
   Class: sky130_fd_sc_hd__and3_4 instances:  18
   Class: sky130_fd_sc_hd__dlymetal6s4s_1 instances:   1
   Class: sky130_fd_sc_hd__a2111o_1 instances:   7
-  Class: sky130_fd_sc_hd__decap_3 instances: 494
-  Class: sky130_fd_sc_hd__decap_4 instances: 360
-  Class: sky130_fd_sc_hd__decap_6 instances: 638
-  Class: sky130_fd_sc_hd__decap_8 instances: 447
+  Class: sky130_fd_sc_hd__decap_3 instances: 12691
   Class: sky130_fd_sc_hd__dlygate4sd3_1 instances: 116
   Class: sky130_fd_sc_hd__or2_1 instances:  10
   Class: sky130_fd_sc_hd__or2_2 instances:   4
@@ -2499,8 +2452,8 @@ Circuit housekeeping contains 10684 device instances.
   Class: sky130_fd_sc_hd__a311o_1 instances:  13
   Class: sky130_fd_sc_hd__a21oi_4 instances:   1
   Class: sky130_fd_sc_hd__a311o_2 instances:   2
-  Class: sky130_fd_sc_hd__fill_1 instances: 1197
-  Class: sky130_fd_sc_hd__fill_2 instances: 306
+  Class: sky130_fd_sc_hd__fill_1 instances: 1206
+  Class: sky130_fd_sc_hd__fill_2 instances: 612
   Class: sky130_fd_sc_hd__o211ai_1 instances:  14
   Class: sky130_fd_sc_hd__o211ai_2 instances:   5
   Class: sky130_fd_sc_hd__o211ai_4 instances:   1
@@ -2516,7 +2469,7 @@ Circuit was modified by parallel/series device merging.
 New circuit summary:
 
 Contents of circuit 1:  Circuit: 'housekeeping'
-Circuit housekeeping contains 2800 device instances.
+Circuit housekeeping contains 2796 device instances.
   Class: sky130_fd_sc_hd__bufinv_16 instances:   1
   Class: sky130_fd_sc_hd__o2111ai_1 instances:  14
   Class: sky130_fd_sc_hd__o2111ai_2 instances:   2
@@ -2556,7 +2509,6 @@ Circuit housekeeping contains 2800 device instances.
   Class: sky130_fd_sc_hd__o221ai_4 instances:   2
   Class: sky130_fd_sc_hd__dfstp_1 instances:   1
   Class: sky130_fd_sc_hd__dfstp_2 instances:   1
-  Class: sky130_ef_sc_hd__decap_12 instances:   1
   Class: sky130_fd_sc_hd__dfrtp_1 instances:  55
   Class: sky130_fd_sc_hd__dfrtp_2 instances:  11
   Class: sky130_fd_sc_hd__dfrtp_4 instances:  12
@@ -2596,9 +2548,6 @@ Circuit housekeeping contains 2800 device instances.
   Class: sky130_fd_sc_hd__dlymetal6s4s_1 instances:   1
   Class: sky130_fd_sc_hd__a2111o_1 instances:   7
   Class: sky130_fd_sc_hd__decap_3 instances:   1
-  Class: sky130_fd_sc_hd__decap_4 instances:   1
-  Class: sky130_fd_sc_hd__decap_6 instances:   1
-  Class: sky130_fd_sc_hd__decap_8 instances:   1
   Class: sky130_fd_sc_hd__dlygate4sd3_1 instances: 116
   Class: sky130_fd_sc_hd__or2_1 instances:  10
   Class: sky130_fd_sc_hd__or2_2 instances:   4
@@ -2704,7 +2653,7 @@ Circuit housekeeping contains 2800 device instances.
   Class: sky130_fd_sc_hd__nor2_8 instances:   2
 Circuit contains 2597 nets, and 4 disconnected pins.
 Contents of circuit 2:  Circuit: 'housekeeping'
-Circuit housekeeping contains 2800 device instances.
+Circuit housekeeping contains 2796 device instances.
   Class: sky130_fd_sc_hd__bufinv_16 instances:   1
   Class: sky130_fd_sc_hd__o2111ai_1 instances:  14
   Class: sky130_fd_sc_hd__o2111ai_2 instances:   2
@@ -2744,7 +2693,6 @@ Circuit housekeeping contains 2800 device instances.
   Class: sky130_fd_sc_hd__o221ai_4 instances:   2
   Class: sky130_fd_sc_hd__dfstp_1 instances:   1
   Class: sky130_fd_sc_hd__dfstp_2 instances:   1
-  Class: sky130_ef_sc_hd__decap_12 instances:   1
   Class: sky130_fd_sc_hd__dfrtp_1 instances:  55
   Class: sky130_fd_sc_hd__dfrtp_2 instances:  11
   Class: sky130_fd_sc_hd__dfrtp_4 instances:  12
@@ -2784,9 +2732,6 @@ Circuit housekeeping contains 2800 device instances.
   Class: sky130_fd_sc_hd__dlymetal6s4s_1 instances:   1
   Class: sky130_fd_sc_hd__a2111o_1 instances:   7
   Class: sky130_fd_sc_hd__decap_3 instances:   1
-  Class: sky130_fd_sc_hd__decap_4 instances:   1
-  Class: sky130_fd_sc_hd__decap_6 instances:   1
-  Class: sky130_fd_sc_hd__decap_8 instances:   1
   Class: sky130_fd_sc_hd__dlygate4sd3_1 instances: 116
   Class: sky130_fd_sc_hd__or2_1 instances:  10
   Class: sky130_fd_sc_hd__or2_2 instances:   4
@@ -2892,7 +2837,7 @@ Circuit housekeeping contains 2800 device instances.
   Class: sky130_fd_sc_hd__nor2_8 instances:   2
 Circuit contains 2597 nets, and 4 disconnected pins.
 
-Circuit 1 contains 2800 devices, Circuit 2 contains 2800 devices.
+Circuit 1 contains 2796 devices, Circuit 2 contains 2796 devices.
 Circuit 1 contains 2597 nets,    Circuit 2 contains 2597 nets.
 
 
