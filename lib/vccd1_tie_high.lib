@@ -34,7 +34,7 @@ library (vccd1_tie_high) {
   }
 
   cell ("vccd1_tie_high") {
-    area : 643.117 
+    area : 666.890 
     is_macro_cell : true;
     bus("HI") {
       bus_type : HI;

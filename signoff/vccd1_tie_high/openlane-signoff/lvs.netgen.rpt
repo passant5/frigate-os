@@ -40,52 +40,6 @@ VPWR                                       |VPWR
 Cell pin lists are equivalent.
 Device classes sky130_fd_sc_hd__fill_1 and sky130_fd_sc_hd__fill_1 are equivalent.
 
-Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VGND
-Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VNB
-Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VPB
-Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VPWR
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hd__decap_8        |Circuit 2: sky130_fd_sc_hd__decap_8        
--------------------------------------------|-------------------------------------------
-VGND                                       |VGND                                       
-VNB                                        |VNB                                        
-VPB                                        |VPB                                        
-VPWR                                       |VPWR                                       
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hd__decap_8 and sky130_fd_sc_hd__decap_8 are equivalent.
-
-Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (0) disconnected node: VGND
-Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (0) disconnected node: VPWR
-Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (1) disconnected node: VGND
-Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (1) disconnected node: VPWR
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hd__tapvpwrvgnd_1  |Circuit 2: sky130_fd_sc_hd__tapvpwrvgnd_1  
--------------------------------------------|-------------------------------------------
-VGND                                       |VGND                                       
-VPWR                                       |VPWR                                       
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hd__tapvpwrvgnd_1 and sky130_fd_sc_hd__tapvpwrvgnd_1 are equivalent.
-
-Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VGND
-Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VNB
-Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VPB
-Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VPWR
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hd__decap_4        |Circuit 2: sky130_fd_sc_hd__decap_4        
--------------------------------------------|-------------------------------------------
-VGND                                       |VGND                                       
-VNB                                        |VNB                                        
-VPB                                        |VPB                                        
-VPWR                                       |VPWR                                       
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hd__decap_4 and sky130_fd_sc_hd__decap_4 are equivalent.
-
 Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VGND
 Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VNB
 Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VPB
@@ -101,6 +55,20 @@ VPWR                                       |VPWR
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_sc_hd__decap_3 and sky130_fd_sc_hd__decap_3 are equivalent.
+
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (1) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__tapvpwrvgnd_1  |Circuit 2: sky130_fd_sc_hd__tapvpwrvgnd_1  
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__tapvpwrvgnd_1 and sky130_fd_sc_hd__tapvpwrvgnd_1 are equivalent.
 
 Cell sky130_fd_sc_hd__fill_2 (0) disconnected node: VGND
 Cell sky130_fd_sc_hd__fill_2 (0) disconnected node: VNB
@@ -144,37 +112,18 @@ LO                                         |LO
 Cell pin lists are equivalent.
 Device classes sky130_fd_sc_hd__conb_1 and sky130_fd_sc_hd__conb_1 are equivalent.
 
-Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VPWR
-Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VGND
-Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VPB
-Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VNB
-
-Subcircuit pins:
-Circuit 1: sky130_ef_sc_hd__decap_12       |Circuit 2: sky130_ef_sc_hd__decap_12       
--------------------------------------------|-------------------------------------------
-VPWR                                       |VPWR                                       
-VGND                                       |VGND                                       
-VPB                                        |VPB                                        
-VNB                                        |VNB                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_ef_sc_hd__decap_12 and sky130_ef_sc_hd__decap_12 are equivalent.
-
-Class vccd1_tie_high (0):  Merged 97 parallel devices.
-Class vccd1_tie_high (1):  Merged 97 parallel devices.
+Class vccd1_tie_high (0):  Merged 112 parallel devices.
+Class vccd1_tie_high (1):  Merged 112 parallel devices.
 Subcircuit summary:
 Circuit 1: vccd1_tie_high                  |Circuit 2: vccd1_tie_high                  
 -------------------------------------------|-------------------------------------------
 sky130_fd_sc_hd__diode_2 (91)              |sky130_fd_sc_hd__diode_2 (91)              
-sky130_fd_sc_hd__fill_1 (61->1)            |sky130_fd_sc_hd__fill_1 (61->1)            
-sky130_fd_sc_hd__decap_8 (3->1)            |sky130_fd_sc_hd__decap_8 (3->1)            
+sky130_fd_sc_hd__fill_1 (60->1)            |sky130_fd_sc_hd__fill_1 (60->1)            
+sky130_fd_sc_hd__decap_3 (26->1)           |sky130_fd_sc_hd__decap_3 (26->1)           
 sky130_fd_sc_hd__tapvpwrvgnd_1 (17->1)     |sky130_fd_sc_hd__tapvpwrvgnd_1 (17->1)     
-sky130_fd_sc_hd__decap_4 (2->1)            |sky130_fd_sc_hd__decap_4 (2->1)            
-sky130_fd_sc_hd__decap_3 (9->1)            |sky130_fd_sc_hd__decap_3 (9->1)            
-sky130_fd_sc_hd__fill_2 (10->1)            |sky130_fd_sc_hd__fill_2 (10->1)            
+sky130_fd_sc_hd__fill_2 (13->1)            |sky130_fd_sc_hd__fill_2 (13->1)            
 sky130_fd_sc_hd__conb_1 (91)               |sky130_fd_sc_hd__conb_1 (91)               
-sky130_ef_sc_hd__decap_12 (2->1)           |sky130_ef_sc_hd__decap_12 (2->1)           
-Number of devices: 189                     |Number of devices: 189                     
+Number of devices: 186                     |Number of devices: 186                     
 Number of nets: 184                        |Number of nets: 184                        
 ---------------------------------------------------------------------------------------
 Resolving symmetries by property value.
@@ -252,14 +201,14 @@ HI[85]                                     |HI[85]
 HI[80]                                     |HI[80]                                     
 HI[78]                                     |HI[78]                                     
 HI[82]                                     |HI[82]                                     
-HI[75]                                     |HI[75]                                     
 HI[70]                                     |HI[70]                                     
+HI[75]                                     |HI[75]                                     
 HI[68]                                     |HI[68]                                     
 HI[72]                                     |HI[72]                                     
 HI[60]                                     |HI[60]                                     
 HI[65]                                     |HI[65]                                     
-HI[58]                                     |HI[58]                                     
 HI[53]                                     |HI[53]                                     
+HI[58]                                     |HI[58]                                     
 HI[50]                                     |HI[50]                                     
 HI[55]                                     |HI[55]                                     
 HI[43]                                     |HI[43]                                     
