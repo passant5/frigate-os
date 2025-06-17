@@ -52,7 +52,7 @@ library (gpio_control_block_mgmt_monitor) {
   }
 
   cell ("gpio_control_block_mgmt_monitor") {
-    area : 2352.257 
+    area : 2594.991 
     is_macro_cell : true;
     pin("mgmt_gpio_in") {
       direction : output;

@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1749954046
+timestamp 1750117369
 << viali >>
 rect 5549 13957 5583 13991
 rect 1685 13889 1719 13923
@@ -7206,11 +7206,11 @@ rect 9029 854 10200 856
 rect 9029 851 9095 854
 rect 9600 824 10200 854
 use sky130_fd_sc_hd__inv_2  _057_
-timestamp 21601
+timestamp 1562557784
 transform 1 0 5612 0 1 9792
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_2  _058_
-timestamp 21601
+timestamp 1562557784
 transform -1 0 3496 0 -1 9792
 box -38 -48 314 592
 use sky130_fd_sc_hd__nand2b_1  _059_
@@ -7338,55 +7338,55 @@ timestamp 21601
 transform -1 0 8924 0 1 7616
 box -38 -48 498 592
 use sky130_fd_sc_hd__inv_2  _090_
-timestamp 21601
+timestamp 1562557784
 transform -1 0 8004 0 1 3264
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_2  _091_
-timestamp 21601
+timestamp 1562557784
 transform -1 0 6900 0 1 9792
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_2  _092_
-timestamp 21601
+timestamp 1562557784
 transform -1 0 7544 0 1 8704
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_2  _093_
-timestamp 21601
+timestamp 1562557784
 transform 1 0 6256 0 -1 6528
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_2  _094_
-timestamp 21601
+timestamp 1562557784
 transform 1 0 5060 0 -1 7616
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_2  _095_
-timestamp 21601
+timestamp 1562557784
 transform 1 0 4232 0 1 6528
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_2  _096_
-timestamp 21601
+timestamp 1562557784
 transform 1 0 5520 0 -1 4352
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_2  _097_
-timestamp 21601
+timestamp 1562557784
 transform 1 0 2944 0 1 10880
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_2  _098_
-timestamp 21601
+timestamp 1562557784
 transform 1 0 1104 0 1 11968
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_2  _099_
-timestamp 21601
+timestamp 1562557784
 transform 1 0 8004 0 1 11968
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_2  _100_
-timestamp 21601
+timestamp 1562557784
 transform 1 0 4784 0 1 2176
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_2  _101_
-timestamp 21601
+timestamp 1562557784
 transform 1 0 2668 0 1 10880
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_2  _102_
-timestamp 21601
+timestamp 1562557784
 transform 1 0 1012 0 -1 8704
 box -38 -48 314 592
 use sky130_fd_sc_hd__dfbbn_2  _103_
@@ -7553,34 +7553,82 @@ use sky130_fd_sc_hd__clkbuf_2  fanout43
 timestamp 21601
 transform 1 0 1840 0 1 4352
 box -38 -48 406 592
-use sky130_ef_sc_hd__decap_12  FILLER_0_23
-timestamp 1636990056
+use sky130_fd_sc_hd__decap_3  FILLER_0_23
+timestamp 21601
 transform 1 0 2760 0 1 1088
-box -38 -48 1142 592
-use sky130_ef_sc_hd__decap_12  FILLER_0_35
-timestamp 1636990056
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_0_26
+timestamp 21601
+transform 1 0 3036 0 1 1088
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_0_29
+timestamp 21601
+transform 1 0 3312 0 1 1088
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_0_32
+timestamp 21601
+transform 1 0 3588 0 1 1088
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_0_35
+timestamp 21601
 transform 1 0 3864 0 1 1088
-box -38 -48 1142 592
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_0_38
+timestamp 21601
+transform 1 0 4140 0 1 1088
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_0_41
+timestamp 21601
+transform 1 0 4416 0 1 1088
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_0_44
+timestamp 21601
+transform 1 0 4692 0 1 1088
+box -38 -48 314 592
 use sky130_fd_sc_hd__fill_1  FILLER_0_47
 timestamp 21601
 transform 1 0 4968 0 1 1088
 box -38 -48 130 592
-use sky130_fd_sc_hd__decap_8  FILLER_0_49
+use sky130_fd_sc_hd__decap_3  FILLER_0_49
 timestamp 21601
 transform 1 0 5152 0 1 1088
-box -38 -48 774 592
-use sky130_fd_sc_hd__decap_3  FILLER_0_57
-timestamp 21601
-transform 1 0 5888 0 1 1088
 box -38 -48 314 592
-use sky130_ef_sc_hd__decap_12  FILLER_0_77
-timestamp 1636990056
+use sky130_fd_sc_hd__decap_3  FILLER_0_52
+timestamp 21601
+transform 1 0 5428 0 1 1088
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_0_55
+timestamp 21601
+transform 1 0 5704 0 1 1088
+box -38 -48 314 592
+use sky130_fd_sc_hd__fill_2  FILLER_0_58
+timestamp 21601
+transform 1 0 5980 0 1 1088
+box -38 -48 222 592
+use sky130_fd_sc_hd__decap_3  FILLER_0_77
+timestamp 21601
 transform 1 0 7728 0 1 1088
-box -38 -48 1142 592
-use sky130_fd_sc_hd__decap_6  FILLER_1_23
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_0_80
+timestamp 21601
+transform 1 0 8004 0 1 1088
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_0_83
+timestamp 21601
+transform 1 0 8280 0 1 1088
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_0_86
+timestamp 21601
+transform 1 0 8556 0 1 1088
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_1_23
 timestamp 21601
 transform 1 0 2760 0 -1 2176
-box -38 -48 590 592
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_1_26
+timestamp 21601
+transform 1 0 3036 0 -1 2176
+box -38 -48 314 592
 use sky130_fd_sc_hd__fill_1  FILLER_1_29
 timestamp 21601
 transform 1 0 3312 0 -1 2176
@@ -7589,30 +7637,54 @@ use sky130_fd_sc_hd__fill_1  FILLER_1_66
 timestamp 21601
 transform 1 0 6716 0 -1 2176
 box -38 -48 130 592
-use sky130_fd_sc_hd__decap_4  FILLER_1_72
+use sky130_fd_sc_hd__decap_3  FILLER_1_72
 timestamp 21601
 transform 1 0 7268 0 -1 2176
-box -38 -48 406 592
-use sky130_fd_sc_hd__decap_8  FILLER_1_77
+box -38 -48 314 592
+use sky130_fd_sc_hd__fill_1  FILLER_1_75
+timestamp 21601
+transform 1 0 7544 0 -1 2176
+box -38 -48 130 592
+use sky130_fd_sc_hd__decap_3  FILLER_1_77
 timestamp 21601
 transform 1 0 7728 0 -1 2176
-box -38 -48 774 592
-use sky130_fd_sc_hd__fill_2  FILLER_1_85
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_1_80
 timestamp 21601
-transform 1 0 8464 0 -1 2176
-box -38 -48 222 592
-use sky130_ef_sc_hd__decap_12  FILLER_2_28
-timestamp 1636990056
+transform 1 0 8004 0 -1 2176
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_1_83
+timestamp 21601
+transform 1 0 8280 0 -1 2176
+box -38 -48 314 592
+use sky130_fd_sc_hd__fill_1  FILLER_1_86
+timestamp 21601
+transform 1 0 8556 0 -1 2176
+box -38 -48 130 592
+use sky130_fd_sc_hd__decap_3  FILLER_2_28
+timestamp 21601
 transform 1 0 3220 0 1 2176
-box -38 -48 1142 592
-use sky130_fd_sc_hd__decap_4  FILLER_2_40
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_2_31
+timestamp 21601
+transform 1 0 3496 0 1 2176
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_2_34
+timestamp 21601
+transform 1 0 3772 0 1 2176
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_2_37
+timestamp 21601
+transform 1 0 4048 0 1 2176
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_2_40
 timestamp 21601
 transform 1 0 4324 0 1 2176
-box -38 -48 406 592
-use sky130_fd_sc_hd__fill_1  FILLER_2_44
+box -38 -48 314 592
+use sky130_fd_sc_hd__fill_2  FILLER_2_43
 timestamp 21601
-transform 1 0 4692 0 1 2176
-box -38 -48 130 592
+transform 1 0 4600 0 1 2176
+box -38 -48 222 592
 use sky130_fd_sc_hd__fill_1  FILLER_2_57
 timestamp 21601
 transform 1 0 5888 0 1 2176
@@ -7621,58 +7693,122 @@ use sky130_fd_sc_hd__fill_1  FILLER_2_91
 timestamp 21601
 transform 1 0 9016 0 1 2176
 box -38 -48 130 592
-use sky130_fd_sc_hd__decap_8  FILLER_3_23
+use sky130_fd_sc_hd__decap_3  FILLER_3_23
 timestamp 21601
 transform 1 0 2760 0 -1 3264
-box -38 -48 774 592
-use sky130_fd_sc_hd__fill_1  FILLER_3_31
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_3_26
 timestamp 21601
-transform 1 0 3496 0 -1 3264
-box -38 -48 130 592
+transform 1 0 3036 0 -1 3264
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_3_29
+timestamp 21601
+transform 1 0 3312 0 -1 3264
+box -38 -48 314 592
 use sky130_fd_sc_hd__fill_2  FILLER_3_90
 timestamp 21601
 transform 1 0 8924 0 -1 3264
 box -38 -48 222 592
-use sky130_ef_sc_hd__decap_12  FILLER_4_3
-timestamp 1636990056
+use sky130_fd_sc_hd__decap_3  FILLER_4_3
+timestamp 21601
 transform 1 0 920 0 1 3264
-box -38 -48 1142 592
-use sky130_ef_sc_hd__decap_12  FILLER_4_15
-timestamp 1636990056
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_4_6
+timestamp 21601
+transform 1 0 1196 0 1 3264
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_4_9
+timestamp 21601
+transform 1 0 1472 0 1 3264
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_4_12
+timestamp 21601
+transform 1 0 1748 0 1 3264
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_4_15
+timestamp 21601
 transform 1 0 2024 0 1 3264
-box -38 -48 1142 592
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_4_18
+timestamp 21601
+transform 1 0 2300 0 1 3264
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_4_21
+timestamp 21601
+transform 1 0 2576 0 1 3264
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_4_24
+timestamp 21601
+transform 1 0 2852 0 1 3264
+box -38 -48 314 592
 use sky130_fd_sc_hd__fill_1  FILLER_4_27
 timestamp 21601
 transform 1 0 3128 0 1 3264
 box -38 -48 130 592
-use sky130_fd_sc_hd__decap_6  FILLER_4_29
+use sky130_fd_sc_hd__decap_3  FILLER_4_29
 timestamp 21601
 transform 1 0 3312 0 1 3264
-box -38 -48 590 592
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_4_32
+timestamp 21601
+transform 1 0 3588 0 1 3264
+box -38 -48 314 592
 use sky130_fd_sc_hd__fill_1  FILLER_4_35
 timestamp 21601
 transform 1 0 3864 0 1 3264
 box -38 -48 130 592
-use sky130_fd_sc_hd__decap_4  FILLER_4_80
+use sky130_fd_sc_hd__decap_3  FILLER_4_80
 timestamp 21601
 transform 1 0 8004 0 1 3264
-box -38 -48 406 592
+box -38 -48 314 592
+use sky130_fd_sc_hd__fill_1  FILLER_4_83
+timestamp 21601
+transform 1 0 8280 0 1 3264
+box -38 -48 130 592
 use sky130_fd_sc_hd__fill_2  FILLER_4_90
 timestamp 21601
 transform 1 0 8924 0 1 3264
 box -38 -48 222 592
-use sky130_ef_sc_hd__decap_12  FILLER_5_3
-timestamp 1636990056
+use sky130_fd_sc_hd__decap_3  FILLER_5_3
+timestamp 21601
 transform 1 0 920 0 -1 4352
-box -38 -48 1142 592
-use sky130_ef_sc_hd__decap_12  FILLER_5_15
-timestamp 1636990056
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_5_6
+timestamp 21601
+transform 1 0 1196 0 -1 4352
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_5_9
+timestamp 21601
+transform 1 0 1472 0 -1 4352
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_5_12
+timestamp 21601
+transform 1 0 1748 0 -1 4352
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_5_15
+timestamp 21601
 transform 1 0 2024 0 -1 4352
-box -38 -48 1142 592
-use sky130_fd_sc_hd__decap_6  FILLER_5_27
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_5_18
+timestamp 21601
+transform 1 0 2300 0 -1 4352
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_5_21
+timestamp 21601
+transform 1 0 2576 0 -1 4352
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_5_24
+timestamp 21601
+transform 1 0 2852 0 -1 4352
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_5_27
 timestamp 21601
 transform 1 0 3128 0 -1 4352
-box -38 -48 590 592
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_5_30
+timestamp 21601
+transform 1 0 3404 0 -1 4352
+box -38 -48 314 592
 use sky130_fd_sc_hd__fill_2  FILLER_5_57
 timestamp 21601
 transform 1 0 5888 0 -1 4352
@@ -7681,26 +7817,42 @@ use sky130_fd_sc_hd__fill_1  FILLER_5_63
 timestamp 21601
 transform 1 0 6440 0 -1 4352
 box -38 -48 130 592
-use sky130_fd_sc_hd__decap_4  FILLER_6_9
+use sky130_fd_sc_hd__decap_3  FILLER_6_9
 timestamp 21601
 transform 1 0 1472 0 1 4352
-box -38 -48 406 592
-use sky130_fd_sc_hd__decap_8  FILLER_6_17
+box -38 -48 314 592
+use sky130_fd_sc_hd__fill_1  FILLER_6_12
+timestamp 21601
+transform 1 0 1748 0 1 4352
+box -38 -48 130 592
+use sky130_fd_sc_hd__decap_3  FILLER_6_17
 timestamp 21601
 transform 1 0 2208 0 1 4352
-box -38 -48 774 592
-use sky130_fd_sc_hd__decap_3  FILLER_6_25
-timestamp 21601
-transform 1 0 2944 0 1 4352
 box -38 -48 314 592
-use sky130_fd_sc_hd__decap_8  FILLER_6_29
+use sky130_fd_sc_hd__decap_3  FILLER_6_20
+timestamp 21601
+transform 1 0 2484 0 1 4352
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_6_23
+timestamp 21601
+transform 1 0 2760 0 1 4352
+box -38 -48 314 592
+use sky130_fd_sc_hd__fill_2  FILLER_6_26
+timestamp 21601
+transform 1 0 3036 0 1 4352
+box -38 -48 222 592
+use sky130_fd_sc_hd__decap_3  FILLER_6_29
 timestamp 21601
 transform 1 0 3312 0 1 4352
-box -38 -48 774 592
-use sky130_fd_sc_hd__fill_1  FILLER_6_37
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_6_32
 timestamp 21601
-transform 1 0 4048 0 1 4352
-box -38 -48 130 592
+transform 1 0 3588 0 1 4352
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_6_35
+timestamp 21601
+transform 1 0 3864 0 1 4352
+box -38 -48 314 592
 use sky130_fd_sc_hd__fill_2  FILLER_6_66
 timestamp 21601
 transform 1 0 6716 0 1 4352
@@ -7709,14 +7861,38 @@ use sky130_fd_sc_hd__fill_2  FILLER_6_90
 timestamp 21601
 transform 1 0 8924 0 1 4352
 box -38 -48 222 592
-use sky130_ef_sc_hd__decap_12  FILLER_7_23
-timestamp 1636990056
+use sky130_fd_sc_hd__decap_3  FILLER_7_23
+timestamp 21601
 transform 1 0 2760 0 -1 5440
-box -38 -48 1142 592
-use sky130_ef_sc_hd__decap_12  FILLER_7_35
-timestamp 1636990056
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_7_26
+timestamp 21601
+transform 1 0 3036 0 -1 5440
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_7_29
+timestamp 21601
+transform 1 0 3312 0 -1 5440
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_7_32
+timestamp 21601
+transform 1 0 3588 0 -1 5440
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_7_35
+timestamp 21601
 transform 1 0 3864 0 -1 5440
-box -38 -48 1142 592
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_7_38
+timestamp 21601
+transform 1 0 4140 0 -1 5440
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_7_41
+timestamp 21601
+transform 1 0 4416 0 -1 5440
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_7_44
+timestamp 21601
+transform 1 0 4692 0 -1 5440
+box -38 -48 314 592
 use sky130_fd_sc_hd__fill_1  FILLER_7_47
 timestamp 21601
 transform 1 0 4968 0 -1 5440
@@ -7725,42 +7901,86 @@ use sky130_fd_sc_hd__decap_3  FILLER_7_57
 timestamp 21601
 transform 1 0 5888 0 -1 5440
 box -38 -48 314 592
-use sky130_fd_sc_hd__decap_8  FILLER_8_19
+use sky130_fd_sc_hd__decap_3  FILLER_8_19
 timestamp 21601
 transform 1 0 2392 0 1 5440
-box -38 -48 774 592
-use sky130_fd_sc_hd__fill_1  FILLER_8_27
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_8_22
 timestamp 21601
-transform 1 0 3128 0 1 5440
-box -38 -48 130 592
-use sky130_ef_sc_hd__decap_12  FILLER_8_29
-timestamp 1636990056
+transform 1 0 2668 0 1 5440
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_8_25
+timestamp 21601
+transform 1 0 2944 0 1 5440
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_8_29
+timestamp 21601
 transform 1 0 3312 0 1 5440
-box -38 -48 1142 592
-use sky130_fd_sc_hd__decap_4  FILLER_8_41
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_8_32
+timestamp 21601
+transform 1 0 3588 0 1 5440
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_8_35
+timestamp 21601
+transform 1 0 3864 0 1 5440
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_8_38
+timestamp 21601
+transform 1 0 4140 0 1 5440
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_8_41
 timestamp 21601
 transform 1 0 4416 0 1 5440
-box -38 -48 406 592
+box -38 -48 314 592
+use sky130_fd_sc_hd__fill_1  FILLER_8_44
+timestamp 21601
+transform 1 0 4692 0 1 5440
+box -38 -48 130 592
 use sky130_fd_sc_hd__fill_2  FILLER_8_90
 timestamp 21601
 transform 1 0 8924 0 1 5440
 box -38 -48 222 592
-use sky130_ef_sc_hd__decap_12  FILLER_9_6
-timestamp 1636990056
+use sky130_fd_sc_hd__decap_3  FILLER_9_6
+timestamp 21601
 transform 1 0 1196 0 -1 6528
-box -38 -48 1142 592
-use sky130_ef_sc_hd__decap_12  FILLER_9_18
-timestamp 1636990056
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_9_9
+timestamp 21601
+transform 1 0 1472 0 -1 6528
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_9_12
+timestamp 21601
+transform 1 0 1748 0 -1 6528
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_9_15
+timestamp 21601
+transform 1 0 2024 0 -1 6528
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_9_18
+timestamp 21601
 transform 1 0 2300 0 -1 6528
-box -38 -48 1142 592
-use sky130_fd_sc_hd__decap_4  FILLER_9_30
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_9_21
+timestamp 21601
+transform 1 0 2576 0 -1 6528
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_9_24
+timestamp 21601
+transform 1 0 2852 0 -1 6528
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_9_27
+timestamp 21601
+transform 1 0 3128 0 -1 6528
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_9_30
 timestamp 21601
 transform 1 0 3404 0 -1 6528
-box -38 -48 406 592
-use sky130_fd_sc_hd__fill_1  FILLER_9_34
+box -38 -48 314 592
+use sky130_fd_sc_hd__fill_2  FILLER_9_33
 timestamp 21601
-transform 1 0 3772 0 -1 6528
-box -38 -48 130 592
+transform 1 0 3680 0 -1 6528
+box -38 -48 222 592
 use sky130_fd_sc_hd__fill_1  FILLER_9_55
 timestamp 21601
 transform 1 0 5704 0 -1 6528
@@ -7769,26 +7989,58 @@ use sky130_fd_sc_hd__fill_1  FILLER_9_57
 timestamp 21601
 transform 1 0 5888 0 -1 6528
 box -38 -48 130 592
-use sky130_ef_sc_hd__decap_12  FILLER_10_3
-timestamp 1636990056
+use sky130_fd_sc_hd__decap_3  FILLER_10_3
+timestamp 21601
 transform 1 0 920 0 1 6528
-box -38 -48 1142 592
-use sky130_ef_sc_hd__decap_12  FILLER_10_15
-timestamp 1636990056
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_10_6
+timestamp 21601
+transform 1 0 1196 0 1 6528
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_10_9
+timestamp 21601
+transform 1 0 1472 0 1 6528
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_10_12
+timestamp 21601
+transform 1 0 1748 0 1 6528
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_10_15
+timestamp 21601
 transform 1 0 2024 0 1 6528
-box -38 -48 1142 592
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_10_18
+timestamp 21601
+transform 1 0 2300 0 1 6528
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_10_21
+timestamp 21601
+transform 1 0 2576 0 1 6528
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_10_24
+timestamp 21601
+transform 1 0 2852 0 1 6528
+box -38 -48 314 592
 use sky130_fd_sc_hd__fill_1  FILLER_10_27
 timestamp 21601
 transform 1 0 3128 0 1 6528
 box -38 -48 130 592
-use sky130_fd_sc_hd__decap_8  FILLER_10_29
+use sky130_fd_sc_hd__decap_3  FILLER_10_29
 timestamp 21601
 transform 1 0 3312 0 1 6528
-box -38 -48 774 592
-use sky130_fd_sc_hd__fill_2  FILLER_10_37
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_10_32
 timestamp 21601
-transform 1 0 4048 0 1 6528
-box -38 -48 222 592
+transform 1 0 3588 0 1 6528
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_10_35
+timestamp 21601
+transform 1 0 3864 0 1 6528
+box -38 -48 314 592
+use sky130_fd_sc_hd__fill_1  FILLER_10_38
+timestamp 21601
+transform 1 0 4140 0 1 6528
+box -38 -48 130 592
 use sky130_fd_sc_hd__fill_2  FILLER_10_70
 timestamp 21601
 transform 1 0 7084 0 1 6528
@@ -7801,10 +8053,18 @@ use sky130_fd_sc_hd__fill_2  FILLER_10_90
 timestamp 21601
 transform 1 0 8924 0 1 6528
 box -38 -48 222 592
-use sky130_fd_sc_hd__decap_8  FILLER_11_9
+use sky130_fd_sc_hd__decap_3  FILLER_11_9
 timestamp 21601
 transform 1 0 1472 0 -1 7616
-box -38 -48 774 592
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_11_12
+timestamp 21601
+transform 1 0 1748 0 -1 7616
+box -38 -48 314 592
+use sky130_fd_sc_hd__fill_2  FILLER_11_15
+timestamp 21601
+transform 1 0 2024 0 -1 7616
+box -38 -48 222 592
 use sky130_fd_sc_hd__fill_2  FILLER_11_25
 timestamp 21601
 transform 1 0 2944 0 -1 7616
@@ -7821,22 +8081,38 @@ use sky130_fd_sc_hd__fill_1  FILLER_12_3
 timestamp 21601
 transform 1 0 920 0 1 7616
 box -38 -48 130 592
-use sky130_fd_sc_hd__decap_6  FILLER_12_22
+use sky130_fd_sc_hd__decap_3  FILLER_12_22
 timestamp 21601
 transform 1 0 2668 0 1 7616
-box -38 -48 590 592
-use sky130_fd_sc_hd__decap_8  FILLER_12_29
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_12_25
+timestamp 21601
+transform 1 0 2944 0 1 7616
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_12_29
 timestamp 21601
 transform 1 0 3312 0 1 7616
-box -38 -48 774 592
-use sky130_fd_sc_hd__decap_8  FILLER_12_45
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_12_32
+timestamp 21601
+transform 1 0 3588 0 1 7616
+box -38 -48 314 592
+use sky130_fd_sc_hd__fill_2  FILLER_12_35
+timestamp 21601
+transform 1 0 3864 0 1 7616
+box -38 -48 222 592
+use sky130_fd_sc_hd__decap_3  FILLER_12_45
 timestamp 21601
 transform 1 0 4784 0 1 7616
-box -38 -48 774 592
-use sky130_fd_sc_hd__fill_1  FILLER_12_53
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_12_48
 timestamp 21601
-transform 1 0 5520 0 1 7616
-box -38 -48 130 592
+transform 1 0 5060 0 1 7616
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_12_51
+timestamp 21601
+transform 1 0 5336 0 1 7616
+box -38 -48 314 592
 use sky130_fd_sc_hd__fill_1  FILLER_12_67
 timestamp 21601
 transform 1 0 6808 0 1 7616
@@ -7849,14 +8125,30 @@ use sky130_fd_sc_hd__fill_1  FILLER_13_3
 timestamp 21601
 transform 1 0 920 0 -1 8704
 box -38 -48 130 592
-use sky130_ef_sc_hd__decap_12  FILLER_13_40
-timestamp 1636990056
+use sky130_fd_sc_hd__decap_3  FILLER_13_40
+timestamp 21601
 transform 1 0 4324 0 -1 8704
-box -38 -48 1142 592
-use sky130_fd_sc_hd__decap_4  FILLER_13_52
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_13_43
+timestamp 21601
+transform 1 0 4600 0 -1 8704
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_13_46
+timestamp 21601
+transform 1 0 4876 0 -1 8704
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_13_49
+timestamp 21601
+transform 1 0 5152 0 -1 8704
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_13_52
 timestamp 21601
 transform 1 0 5428 0 -1 8704
-box -38 -48 406 592
+box -38 -48 314 592
+use sky130_fd_sc_hd__fill_1  FILLER_13_55
+timestamp 21601
+transform 1 0 5704 0 -1 8704
+box -38 -48 130 592
 use sky130_fd_sc_hd__decap_3  FILLER_13_57
 timestamp 21601
 transform 1 0 5888 0 -1 8704
@@ -7869,10 +8161,22 @@ use sky130_fd_sc_hd__fill_1  FILLER_14_19
 timestamp 21601
 transform 1 0 2392 0 1 8704
 box -38 -48 130 592
-use sky130_ef_sc_hd__decap_12  FILLER_14_35
-timestamp 1636990056
+use sky130_fd_sc_hd__decap_3  FILLER_14_35
+timestamp 21601
 transform 1 0 3864 0 1 8704
-box -38 -48 1142 592
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_14_38
+timestamp 21601
+transform 1 0 4140 0 1 8704
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_14_41
+timestamp 21601
+transform 1 0 4416 0 1 8704
+box -38 -48 314 592
+use sky130_fd_sc_hd__decap_3  FILLER_14_44
+timestamp 21601
+transform 1 0 4692 0 1 8704
+box -38 -48 314 592
 use sky130_fd_sc_hd__fill_1  FILLER_14_83
 timestamp 21601
 transform 1 0 8280 0 1 8704
@@ -7982,7 +8286,7 @@ timestamp 21601
 transform 1 0 8924 0 -1 14144
 box -38 -48 222 592
 use sky130_fd_sc_hd__conb_1  gpio_control_block_mgmt_monitor_44
-timestamp 21601
+timestamp 1562557784
 transform 1 0 6440 0 -1 8704
 box -38 -48 314 592
 use gpio_logic_high  gpio_logic_high
